@@ -23,24 +23,24 @@
 <body>
     
     <div id="section01">
-    
-        <!-- menu start -->
-        <div class="menu_box">
-            
-                <div class="logo"><a href="#section01"><img src="images/파주-로고.png" alt="파주출판도시"></a></div>
-                <!-- logo -->
-                <ul>
-                    <li><a href="#section02">About</a></li>
-                    <li><a href="#section03">Wisdom</a></li>
-                    <li><a href="#section04">Letterpress</a></li>
-                    <li><a href="#section05">Mimesis</a></li>
-                    <li><a href="#section06">Other</a></li>
-                </ul>
-        
+           <!-- web menu start -->
+        <div class="menu_box web">
+            <div class="logo"><a href="#section01"><img src="images/파주-로고.png" alt="파주출판도시"></a></div>
+                <!-- logo -->       
+            <ul class="asidemenu">
+                <li><a href="#section01">Main</a></li>
+                <li><a href="#section02">About</a></li>
+                <li><a href="#section03">APCI-Center</a></li>
+                <li><a href="#section04">Mimesis</a></li>
+                <li><a href="#section05">Map</a></li>             
+            </ul>
         </div>
-        <!-- menu end -->
+        <!--web menu end -->
+        
+
 
     </div>
+
 <!-- section01 끝 -->
 <div id="section02">
     <div class="cover">
@@ -74,7 +74,9 @@
                     </ul>
                 </div>
             
-                <div class="sec-2-box "id="popup-button" style ="cursor: pointer;">
+                <div OnClick="location.href ='#section05'"
+
+            class="sec-2-box "id="popup-button" style ="cursor: pointer;">
                     <ul>
                         <li>오시는 길</li>
                         <li><img src="images/come-to-way.png" alt="파주 이미지"></li>
@@ -88,6 +90,7 @@
 </div>
 <!-- section02 끝 -->
 <div id="section03">
+    <div class="bg-c">
     <div class="container03">
         <div class="sec03-tab">
             <ul>
@@ -246,10 +249,35 @@
     </div>
     <!-- slide  -->
 </div>
-<!-- sec03 warp  -->
+</div>
 </div>
 <!-- section03 끝 -->
-<div id="section04"></div>
+<div id="section04">
+    <div class="txt04">
+            <h1>Mimesis Art Musium </h1>
+            <h2>미메시스 아트 뮤지엄</h2>
+            <p>다양한 곡면으로 이루어진 백색의 전시 공간은 가급적 인조광을 배제하고 자연광을 끌어 들여 은은하고 차분한 분위기를 연출하며 시시때때로 변하는 빛의 향연을 볼 수 있는 곳으로 모더니즘 건축의 마지막 거장이라고 불리는  포르투갈의 건축가 알바루 시자가 설계해 더욱 주목을 받고 있습니다.</p>
+
+    </div>
+    <div class="swiper-container swiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="all-bg-1">Slide 1</div>
+            </div>
+            <div class="swiper-slide">
+                <div class="all-bg-2">Slide 2</div>
+            </div>
+            <div class="swiper-slide">
+                <div class="all-bg-3">Slide 3</div>
+            </div>
+            <div class="swiper-slide">
+                <div class="all-bg-4">Slide 4</div>
+            </div>
+         </div>
+         <div class="swiper-pagination"></div>
+        
+    </div>
+</div>
 <!-- section04 끝 -->
 <div id="section05">
     <div class="map-wrap">
@@ -398,7 +426,7 @@
 // swiper 
 
 
-var swiper = new Swiper('.swiper-container', {
+var swiper = new Swiper('.slider', {
       slidesPerView: 2,
       spaceBetween: 30,
       freeMode: true,
@@ -410,6 +438,18 @@ var swiper = new Swiper('.swiper-container', {
       },
     });
 
+new Swiper('.swiper1', {
+    direction:'vertical',
+    slidesPerView: 1,
+    spaceBetween: 0,
+     pagination : {
+        el : '.swiper-pagination',
+       
+    clickable:true,
+    },
+    loop : true, // 무한 루프 슬라이드, 반복이 되며 슬라이드가 끝이 없다.
+    
+});
 // tab
 $(function(){
     $("#tab-1").click(function(){

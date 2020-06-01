@@ -402,7 +402,7 @@
 	/**마우스 부드럽게 해당위치로 이동**/
 	$(function(){
 	   $('a[href^=#]').click(function() {
-		  var speed = 800;
+		  var speed = 100;
 		  var href= $(this).attr("href");
 		  var target = $(href == "#" || href == "" ? 'html' : href);
 		  var position = target.offset().top;

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>할 일 목록</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="js/js.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <h1 id="title">할 일 목록</h1>
+        <button id="add-btn">목록추가</button>
+         <ul id="list">
+             <li>제목1</li>
+             <li>제목2</li>
+             <li>제목3</li>
+             <li>제목4</li>
+         </ul>
+    </div>
+    <script type="text/javascript">
+    var title=document.getElementById("title");
+    var list=document.getElementById("list");
+    var li=list.getElementsByTagName("li");
+    var addBtn=document.getElementById("add-btn");
+    var listCounter=1;
+    // 변수초기화
+    for(var i=0;i< li.length; i++){
+        li[i].addEventListener('click',activeItem);
+    }
+
+    function activeItem(){
+        console.log(this);    
+        title.innerHTML=this.innerText;
+        for(var i=0; i <li.length;i++){
+            li[i].removeAttribute('class');
+        }
+        this.setAttribute('class','active');
+    }
+    addBtn.addEventListener('click',function(){
+        var txt=prompt('제목 입력');
+        list.innerHTML += '<li>'+txt+"</li>";
+    });
+    document.getElementById("list").addEventListener('click', function(){
+    document.getElementById('title').style.color="yellow";
+   });
+</script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-style: 16px;
+    color:#222328;
+}
+li{
+   list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.wrab{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 메뉴 */
+header{
+    widows: 100%;
+    height: 100px;
+    background: #888;
+}
+
+/* 섹션 */
+section{
+    width: 100%;
+    height: 1;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+menu{
+    margin-top: 30px;
+    margin-right: 20px;
+    padding-top:10px ;
+   background: #fff;
+   z-index: 99;
+   
+}
+
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    width: 120px;
+    text-align: center;
+}
+.subMenu{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.subMenu ul{
+    width: 120px;
+}
+.subMenu ul li{
+    width: 120px;
+    padding-top: 10px;
+}
+/* 베너 */
+.banner{
+    width: 100%;
+    height: 300px;
+    background: #777;
+    overflow: hidden;
+}
+/* 컨텐츠 */
+.content{
+    width: 100%;
+    height: 200px;
+    background: #888;
+    display: flex; 
+}
+
+.content div{
+    width: 400px;
+    height: 100%;
+}
+/* 탭 */
+.cont1{
+    display: flex;
+    flex-direction: column;
+}
+/* 탭타이틀 */
+.cont-title{
+    display: flex;
+}
+.cont-title>ul{
+    width: 100%;
+    display: flex;
+    background-color: khaki;
+}
+.cont-title>ul>li{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.tab1{
+    background-color: lightblue;
+}
+.tab2{
+    
+}
+/* 탭 컨텐츠 */
+.cont-cont{
+    width: 100%;
+    height: 260px;
+}
+.tab-cont1{
+    width: 100%;
+    height: 260px;
+}
+
+
+.cont2{
+    background: url(../images/shoppinglist-bg.jpg);
+   
+}
+.cont3{
+    background: url(../images/service-center-bg-1.jpg); 
+}
+/* 풋터 */
+footer{
+    width: 100%;
+    height: 100px;
+    background: #444;
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer>div{
+    margin-top: 30px;
+}
+.sns{
+    margin-right: 20px ;
+}

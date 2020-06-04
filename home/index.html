@@ -29,7 +29,13 @@
            <!-- web menu start -->
         <div class="menu_box web">
             <div class="logo"><a href="#section01"><img src="images/파주-로고.png" alt="파주출판도시"></a></div>
-                <!-- logo -->       
+                <!-- logo -->  
+                 <!-- 모바일 화면에서 보여질 토글 메뉴 -->
+       <button type="button" class="menuBtn">
+        <i>
+            <img src="images/hamberger-btn.png" style="width:30px;height:20px; border:none; padding: 2.5px 0;"/>
+        </i>
+    </button>    
             <ul class="asidemenu">
                 <li><a href="#section01">Main</a></li>
                 <li><a href="#section02">About</a></li>
@@ -195,10 +201,21 @@
                     <!-- Swiper -->
                 <div class="swiper-container slider">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide h-bg-1">Slide *1</div>
-                        <div class="swiper-slide h-bg-2">Slide 2</div>
-                        <div class="swiper-slide h-bg-3">Slide 3</div>
-                        <div class="swiper-slide h-bg-4">Slide 4</div>
+                        <div class="swiper-slide h-bg-1"></div>
+                        <div class="swiper-slide h-bg-2"></div>
+                        <div class="swiper-slide h-bg-3"></div>
+                        <div class="swiper-slide h-bg-4"></div>
+                        <div class="swiper-slide h-bg-5"></div>
+                        <div class="swiper-slide h-bg-6"></div>
+                        <div class="swiper-slide h-bg-7"></div>
+                        <div class="swiper-slide h-bg-8"></div>
+                        <div class="swiper-slide h-bg-9"></div>
+                        <div class="swiper-slide h-bg-10"></div>
+                        <div class="swiper-slide h-bg-11"></div>
+                        <div class="swiper-slide h-bg-12"></div>
+                        <div class="swiper-slide h-bg-13"></div>
+                        <div class="swiper-slide h-bg-14"></div>
+                       
                         
                     </div>
                     <!-- Add Pagination -->
@@ -226,11 +243,18 @@
                 <!-- Swiper -->
                 <div class="swiper-container slider">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide bg-1">Slide** 1</div>
-                        <div class="swiper-slide bg-2">Slide 2</div>
-                        <div class="swiper-slide bg-3">Slide 3</div>
-                        <div class="swiper-slide bg-4">Slide 4</div>
-                        
+                        <div class="swiper-slide ji-bg-1"></div>
+                        <div class="swiper-slide ji-bg-2"></div>
+                        <div class="swiper-slide ji-bg-3"></div>
+                        <div class="swiper-slide ji-bg-4"></div>
+                        <div class="swiper-slide ji-bg-5"></div>
+                        <div class="swiper-slide ji-bg-6"></div>
+                        <div class="swiper-slide ji-bg-7"></div>
+                        <div class="swiper-slide ji-bg-8"></div>
+                        <div class="swiper-slide ji-bg-9"></div>
+                        <div class="swiper-slide ji-bg-10"></div>
+                        <div class="swiper-slide ji-bg-11"></div>
+                        <div class="swiper-slide ji-bg-12"></div>
                     </div>
                     <!-- Add Pagination -->
                     <div class="swiper-pagination">   
@@ -251,25 +275,17 @@
             <p>다양한 곡면으로 이루어진 백색의 전시 공간은 가급적 인조광을 배제하고 자연광을 끌어 들여 은은하고 차분한 분위기를 연출하며 시시때때로 변하는 빛의 향연을 볼 수 있는 곳으로 모더니즘 건축의 마지막 거장이라고 불리는  포르투갈의 건축가 알바루 시자가 설계해 더욱 주목을 받고 있습니다.</p>
 
     </div>
-    <div class="swiper-container swiper1">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="all-bg-1">Slide 1</div>
-            </div>
-            <div class="swiper-slide">
-                <div class="all-bg-2">Slide 2</div>
-            </div>
-            <div class="swiper-slide">
-                <div class="all-bg-3">Slide 3</div>
-            </div>
-            <div class="swiper-slide">
-                <div class="all-bg-4">Slide 4</div>
-            </div>
-         </div>
-         <div class="swiper-pagination"></div>
-        
+    <div id="slid-container">
+        <div id="slide-wrap">
+            <div class="sl-box" id="sl-box-1"><img src="images/art01.jpg" alt="이미지1"></div>
+            <div class="sl-box" id="sl-box-2"><img src="images/art02.jpg" alt="이미지2"></div>
+            <div class="sl-box" id="sl-box-3"><img src="images/art03.jpg" alt="이미지3"></div>
+            <div class="sl-box" id="sl-box-4"><img src="images/art04.jpg" alt="이미지4"></div>
+        </div>
     </div>
 </div>
+
+
 <!-- section04 끝 -->
 <div id="section05">
     <div class="map-wrap">
@@ -300,7 +316,9 @@
         </div>
     </div>
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9f26cbe9e1a5ef10f6c81a7abf7111db"></script>
-    <script>
+   
+   <script>
+
     var mapContainer = document.getElementById('map'), // 지도를 표시할 div  
         mapOption = { 
             center: new kakao.maps.LatLng(37.713632, 126.687744), // 지도의 중심좌표
@@ -430,18 +448,7 @@ var swiper = new Swiper('.slider', {
       },
     });
 
-new Swiper('.swiper1', {
-    direction:'vertical',
-    slidesPerView: 1,
-    spaceBetween: 0,
-     pagination : {
-        el : '.swiper-pagination',
-       
-    clickable:true,
-    },
-    loop : true, // 무한 루프 슬라이드, 반복이 되며 슬라이드가 끝이 없다.
     
-});
 // tab
 $(function(){
     $("#tab-1").click(function(){
@@ -494,9 +501,34 @@ $(function(){
 });
 
 
+</script>
 
+<script>
+    $(document).ready(function(){
 
+        //slide
+        setInterval(function(){
+            $('#slide-wrap').animate({
+                left: '-1920px'
+            },function(){
+                $('.sl-box').eq(0).appendTo('#slide-wrap');
+                $('#slide-wrap').css({
+                    left:0
+                });
+            });
+            
+        },5000);
+        //slide end
+    
+    }); //end
+</script>
 
+<script>
+    $(function(){
+        $('.menuBtn').click(function(){
+            $('.asidemenu').stop().slideToggle();
+        })
+    })
 </script>
 </body>
 </html>

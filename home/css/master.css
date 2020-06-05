@@ -4,12 +4,13 @@
 *{
 	list-style:none;
 	margin:0; 
-	padding:0;	
+	padding:0;
 }
 body,
 html{
 	width: 100%;
 	height: 100%;
+	/* overflow-x: hidden; */
 }
 html {
 	scroll-behavior: smooth;
@@ -60,11 +61,43 @@ html {
 	line-height: 30pt;
 	margin-left: 38%;
 }
+@media(max-width: 767px){
+	.text-se01 h1{
+		font-size: 40px;
+		padding-right: 30px;
 
+	}
+	.text-se01 h2{
+		font-size: 15px;
+		margin-left: 580px;
+		padding-bottom: 10px;
+
+	}
+	.text-se01 p{
+		width: 250px;
+		font-size: 15px;
+		margin-left: 720px;
+
+	}
+	.se01-wrap{
+		width: 100%;
+	}
+	.swiper-pagination{
+		top:100%;
+		margin-left: 500px;
+	}
+	
+}
 .main-slide{
 	width:60%;
 	
 }
+@media (max-width:767px){
+	.main-slide{
+		width:100%;
+	}
+}
+
 .swiper-container {
 	width: 100%;
 	
@@ -174,6 +207,11 @@ html {
 	width: 100%;
 	padding-top: 100px;
 }
+@media(max-width:767px){
+	.sec-2-title img{
+		margin-top: 50px ;
+	}
+}
 /* 목록4 */
 .sec-2-box{
 	text-align: center;
@@ -232,12 +270,11 @@ html {
 #section03{
 	width:100%;
 	padding-top: 10%;
-	padding-bottom: 12%;	
 }
 .container03 h2{
 	color:#6ea801;
 }
-.bg-c{
+.bg-cover{
 	background:#e2f1a6e5;
 }
 .sec03-container{
@@ -270,6 +307,14 @@ html {
 	justify-self: end;
 }
 /* text */
+@media(max-width:767px){
+	.slide-text h1{
+		width: 500px;
+	}
+	.slide-text>p{
+		width: 500px;
+	}
+}
 /* 지혜의 숲 */
 .W-bg-1{
 	background: url('../images/Layer1.png');
@@ -678,14 +723,24 @@ html {
 		margin-bottom: 80px;
 		
 	}
+	.container03{
+		padding-left:0;
+	}
+	.media-swiper{
+		width:100%!important;
+	}
 }
 
 /* 섹션 3 끝 */
 /* 섹션 4 시작 ---------------------------------------------------- */	
+
 #section04{
 	position: relative;
 	width: 100%;
 	
+}
+.hh{
+	margin:0!important;
 }
 .txt04{
 	position: absolute;
@@ -710,6 +765,30 @@ html {
 	line-height: 50px;
 	font-size: 20px;
 }
+
+.sec4-slide-img-01{
+	width:100%;
+	height:1080px;
+	background: url(../images/art01.jpg);
+}
+.sec4-slide-img-02{
+	width:100%;
+	height:1080px;
+	background: url(../images/art02.jpg);
+
+}
+.sec4-slide-img-03{
+	width:100%;
+	height:1080px;
+	background: url(../images/art03.jpg);
+
+}
+.sec4-slide-img-04{
+	width:100%;
+	height:1080px;
+	background: url(../images/art04.jpg);
+
+}
 /* 텍스트 */
 img{
 	border: none;
@@ -717,8 +796,9 @@ img{
 #slide-container{
     width: 100%;
     height: 1000px;
-    background-color: #ef80ef;
+	background-color: #ef80ef;
 	overflow: hidden;
+	
 }
 #slide-wrap{
     width: 7680px;
@@ -726,14 +806,40 @@ img{
 	position: relative;
 
 }
-#slide-wrap>div{
-	transition: 1s;
+#slide-wrap>img{
 	float: left;
 }
+
 .sl-box{
 	line-height: 0;
 }
+@media(max-width:767px){
 
+	#slide-container{
+		width:100%;
+		height: 620px;
+		margin:0;
+	}
+	.txt04{
+		padding:0;
+		text-align: center;
+		width: 80%;
+		
+	}
+	.hh{
+		width:100%;
+	}
+	.txt04 h1{
+		font-size: 40px;
+	}
+	.txt04 p{
+		font-size:16px;
+		text-align: center;
+		margin-left:20px!important;
+		margin-bottom:20px;
+		line-height: 36px;
+	}
+}
 /* 슬라이드 */
 /* 섹션 4 끝 */
 /* 섹션 5 시작 ---------------------------------------------------- */	
@@ -838,7 +944,6 @@ img{
 	}
 	.menuBtn:focus {
 		outline:none;
-		
 	}
 	
 }

@@ -737,11 +737,9 @@ html {
 #section04{
 	position: relative;
 	width: 100%;
-	
+	height: 1000px;	/* 위치만 보려고 임시로 넣었어요 */
 }
-.hh{
-	margin:0!important;
-}
+
 .txt04{
 	position: absolute;
 	width: 30%;
@@ -765,81 +763,8 @@ html {
 	line-height: 50px;
 	font-size: 20px;
 }
-
-.sec4-slide-img-01{
-	width:100%;
-	height:1080px;
-	background: url(../images/art01.jpg);
-}
-.sec4-slide-img-02{
-	width:100%;
-	height:1080px;
-	background: url(../images/art02.jpg);
-
-}
-.sec4-slide-img-03{
-	width:100%;
-	height:1080px;
-	background: url(../images/art03.jpg);
-
-}
-.sec4-slide-img-04{
-	width:100%;
-	height:1080px;
-	background: url(../images/art04.jpg);
-
-}
 /* 텍스트 */
-img{
-	border: none;
-}
-#slide-container{
-    width: 100%;
-    height: 1000px;
-	background-color: #ef80ef;
-	overflow: hidden;
-	
-}
-#slide-wrap{
-    width: 7680px;
-    background-color: red;
-	position: relative;
 
-}
-#slide-wrap>img{
-	float: left;
-}
-
-.sl-box{
-	line-height: 0;
-}
-@media(max-width:767px){
-
-	#slide-container{
-		width:100%;
-		height: 620px;
-		margin:0;
-	}
-	.txt04{
-		padding:0;
-		text-align: center;
-		width: 80%;
-		
-	}
-	.hh{
-		width:100%;
-	}
-	.txt04 h1{
-		font-size: 40px;
-	}
-	.txt04 p{
-		font-size:16px;
-		text-align: center;
-		margin-left:20px!important;
-		margin-bottom:20px;
-		line-height: 36px;
-	}
-}
 /* 슬라이드 */
 /* 섹션 4 끝 */
 /* 섹션 5 시작 ---------------------------------------------------- */	

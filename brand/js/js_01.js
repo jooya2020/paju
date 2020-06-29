@@ -71,3 +71,15 @@ $(function(){
      });
   
 });
+
+// hover
+$(function(){
+   $('.inner_left_wrab').mouseenter(function(){
+      $('.more_icon').fadeIn();
+      $('.inner_left_img').css('transform','scale(1.2');
+   });
+   $('.inner_left_wrab').mouseleave(function(){
+      $('.more_icon').fadeOut();
+      $('.inner_left_img').css('transform','scale(1)');
+   });
+})

@@ -1,0 +1,152 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+    font-family: "BillieHarleyRegular";
+    src: url("../fonts/BillieHarley.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/BillieHarley.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("../fonts/BillieHarley.woff") format("woff"), /* Modern Browsers */
+      url("../fonts/BillieHarley.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+li {
+    list-style: none;
+}
+.section01 {
+    background: url("../img/sonata5.jpg");
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+@media(max-width:767px){
+    .section01{
+        background-position:-900px;
+    }
+    .text_box {
+        margin-top: 20px;        
+    }
+    .text_box h1{
+        width:500px;
+        font-size: 45px!important;
+        line-height: 75pt;
+        margin-top: 100px!important;
+    }
+    .sub_title_bg{
+        margin: 0!important;
+        margin-top: -30px!important;
+        margin-right: 50px;
+    }
+}
+.left_txt {
+    /* padding */
+    padding-top: 10%;
+    padding-left: 200px;
+    padding-right: 8%;
+    /* text */
+    color: #fff;
+    text-align: end;
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* 글자 그림자 */
+    text-shadow: black;
+}
+
+.left_txt h1 {
+    /* font */
+    font-family: "BillieHarleyRegular";
+    font-size: 50pt;
+    font-weight: 300;
+    /* padding */
+    padding-top: 7px;
+    padding-bottom: 30px;
+
+}
+
+.left_txt h3 {
+    /* padding */
+    padding-bottom: 10px;
+}
+
+.brand-logo img {
+    width: 200px;
+    /* padding */
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.sub_title_bg {
+    width: 330px;
+    height: 120px;
+    background: rgba(0,0,0,0.35);
+    text-align: center;
+    /* padding,margin */
+    padding-top: 10px;
+    margin-right: 30px;
+}
+/* row_1 end */
+.c-s{
+    width: 60%;
+}
+.car_icon>div>img{
+    width: 100px;
+}
+.border_b1{
+    border-bottom: 1px solid black;
+}
+/* row_2 end */
+/* section02 */
+
+.car-brand-color > ul {
+    display: flex;
+}
+
+.car-brand-color > ul > li {
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+
+#wh {
+    background-color: #f2f4f3;
+}
+#bl {
+    background-color: #abadac;
+}
+#hg{
+    background-color: #6a6c6d;
+}
+#ng{
+    background-color: #4e5357;
+}
+#ob{
+    background-color: #272e39;
+}
+#mb{
+    background-color: #1b1a1d;
+}
+#fr{
+    background-color: #970f1b;
+}
+.bl,.hg ,.ng ,.ob,.mb,.fr{
+    display: none;
+}
+@media(max-width:767px){
+    .wh img,.bl img,.hg img,.ng img,.ob img,.mb img,.fr img{
+        width: 500px;
+    }
+}
+
+/* 섹션3 */
+.gud{
+    padding-top: 250px;
+}
+#width800{
+    width: 1040px;
+}

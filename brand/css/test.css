@@ -144,9 +144,15 @@ li {
 }
 
 /* 섹션3 */
+.i_1_w{
+    width: 300px;
+}
+
+/* 모달슬라이드 start */
 .gud{
     padding-top: 250px;
 }
 #width800{
     width: 1040px;
 }
+/* 모달슬라이드 end */

@@ -207,7 +207,12 @@ filter: opacity(.2);
     background: #000;
 }
 #p-n{
-    padding-left: 0;;
+    
+}
+@media(min-width:767px){
+    #p-n{
+        padding-left: 0;
+    }
 }
 /* row 간격띄우기 */
 .p-t-50{

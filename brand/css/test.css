@@ -15,7 +15,7 @@ li {
 }
 .section01 {
     background: url("../img/sonata5.jpg");
-    background-position: contain;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -88,19 +88,45 @@ li {
     padding-top: 10px;
     margin-right: 30px;
 }
-/* row_1 end */
+
+.section1-1{
+    padding: 30px 0;
+    background: #777777;
+}
+/* row_1 start */
 .c-s{
     width: 60%;
+    
 }
 .car_icon>div>img{
     width: 100px;
 }
-.border_b1{
-    border-bottom: 1px solid black;
-}
-/* row_2 end */
-/* section02 */
 
+/* row_2 start */
+/* section02 */
+.section02{
+     padding-top: 200px; 
+}
+.col-tit{
+    font-size: 40px;    
+}
+.bolder{
+    font-weight: bolder;
+}
+.p-t-150{
+    margin-top: 50px;
+}
+.til-c-1{
+    width: 35%;
+}
+
+/* section03 start */
+.section03{
+    padding-top: 200px;    
+}
+.car-brand-color{
+    padding-top: 15px;
+}
 .car-brand-color > ul {
     display: flex;
 }
@@ -144,10 +170,49 @@ li {
 }
 
 /* 섹션3 */
-.i_1_w{
-    width: 300px;
-}
 
+.txt_box{
+    margin-top: 80px;
+}
+.txt_box h4:first-child{
+    font-weight: bolder;
+    color: #888888;
+}
+.txt_box h4:nth-child(3){
+    width: 350px;
+    line-height: 30px;
+}
+.border_bottom{
+    width: 50px;
+    border-bottom: 3px solid black;
+}
+.p1-50{
+    padding-left: 50px;
+}
+/* row1 텍스트 */
+.i_1_w{
+    width: 100%;
+    transition: all 1s;
+}
+.i_1_w img{
+    width: 100%;
+}
+.i_1_w:hover{
+transform: scale(1.2);
+filter: opacity(.2);
+}
+.cover{
+    width: 100%;    
+    overflow: hidden;
+    background: #000;
+}
+#p-n{
+    padding-left: 0;;
+}
+/* row 간격띄우기 */
+.p-t-50{
+    margin-top: 15px;
+}
 /* 모달슬라이드 start */
 .gud{
     padding-top: 250px;

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제이쿼리 1일차-배열</title>
+</head>
+<body>
+    <div class="arrays01"></div>
+    <div class="arrays02"></div>
+    <div class="arrays03"></div>
+    <div class="arrays04"></div>
+    <div class="arrays05"></div>
+    <div class="arrays06"></div>
+    <div class="arrays07"></div>
+    <div class="arrays08"></div>
+
+    <div class="arrays09"></div>
+    <div class="arr">
+        <p class="arrays10">
+            <button onclick="myFunction()">클릭 레몬추가</button>
+        </p>
+    </div>
+    <div class="arrays11"></div>
+    <div class="arrays12"></div>
+    <div class="arrays13"></div>
+    <div class="arrays14"></div>
+    <div class="arr0">
+        <p class="arrays15">
+            <button onclick="myFunction2()">클릭추가</button>
+        </p>
+    </div>
+    <div class="arr0">
+        <p class="arrays16">
+            <button onclick="myFunction3()">클릭</button>
+        </p>
+    </div>
+    
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+   
+
+        var fruits03 = ['Banana','Orange','Apple','Mango'];
+        document.querySelector('.arrays16').innerHTML = "Original Array:<br>"+ fruits03;
+        function myFunction3(){
+            fruits03.slice(1, 0,"Lemon","kiwi");
+            document.querySelector('.arrays16').innerHTML ="New Array:<br>"+ fruits03;
+        }
+    </script>
+        
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제이쿼리 1일차-배열</title>
+</head>
+<body>
+    <div class="arrays01"></div>
+    <div class="arrays02"></div>
+    <div class="arrays03"></div>
+    <div class="arrays04"></div>
+    <div class="arrays05"></div>
+    <div class="arrays06"></div>
+    <div class="arrays07"></div>
+    <div class="arrays08"></div>
+
+    <div class="arrays09"></div>
+    <div class="arr">
+        <p class="arrays10">
+            <button onclick="myFunction()">클릭 레몬추가</button>
+        </p>
+    </div>
+    <div class="arrays11"></div>
+    <div class="arrays12"></div>
+    <div class="arrays13"></div>
+    <div class="arrays14"></div>
+    <div class="arr0">
+        <p class="arrays15">
+            <button onclick="myFunction2()">클릭추가</button>
+        </p>
+    </div>
+    <div class="arr0">
+        <p class="arrays16">
+            <button onclick="myFunction3()">클릭</button>
+        </p>
+    </div>
+    
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        var cars =["sonata","corando","moning"];
+        document.querySelector(".arrays01").innerHTML =cars;
+
+
+
+        var cars02 =[
+            "sonata",
+            "corando",
+            "moning"
+            ];
+        document.querySelector(".arrays02").innerHTML =cars;
+        
+
+
+        var cars03 = new Array("sonata","corando","moning");
+        document.querySelector(".arrays03").innerHTML =cars;
+
+
+
+        var cars04 = new Array("sonata","corando","moning");
+        cars04[0]="다른놈!";
+        document.querySelector(".arrays04").innerHTML =cars04[0];
+        // 바뀐 1개만 보여줌
+
+        document.querySelector(".arrays04").innerHTML =cars04;
+        // 바뀐것 포함 전체 보여줌
+
+        var person = { firstName:"john",lastName:"Doe",age:"30" };
+        document.querySelector(".arrays05").innerHTML = person["firstName"];
+
+       var fruits = ['Banana','Orange','Apple','Mango'];
+       document.querySelector('.arrays06').innerHTML = fruits.length;
+
+       var fruits = ['Banana','Orange','Apple','Mango'];
+
+       var last = fruits[fruits.length-1];
+       document.querySelector(".arrays07").innerHTML = last;
+
+
+
+       var fruits, text, fLen, i;
+       fruits = ['Banana','Orange','Apple','Mango'];
+       fLen = fruits.length;
+       text = "<ul>";
+       for (i=0;i<fLen; i++){
+           text +="<li>" + fruits[i] +"<li>";
+       }       
+       text = "</ul>";
+    //    document.querySelector("arrays08").innerHTML =?;
+
+       
+
+
+       var fruits, text;
+       text += "<ul>";
+       fruits.forEach(myFunction);   
+       text += "</ul>";
+        document.querySelector(".arrays09").innerHTML = text;
+        // function myFunction
+// 못적음
+        // var fruits = ['Banana','Orange','Apple','Mango'];
+        // document.querySelector(".arrays10").innerHTML = fruits;
+
+        // function myFunction(){
+        //     fruits.push("Lemon");
+        //     document.querySelector(".arrays10").innerHTML =fruits;
+        // }
+        //작동안됨
+        var fruits = ['Banana','Orange','Apple','Mango'];
+        document.querySelector('.arrays11').innerHTML = fruits;
+        fruits.pop();
+        document.querySelector(".arrays11").innerHTML = fruits;
+        
+
+
+        var fruits = ['Banana','Orange','Apple','Mango'];
+        document.querySelector('.arrays12').innerHTML = fluits.toString();
+
+        //문자열로 반환
+        var fruits = ['Banana','Orange','Apple','Mango'];
+        document.querySelector('.arrays13').innerHTML = fluits.join("*");
+        //연결
+
+        var fruits = ['Banana','Orange','Apple','Mango'];
+        document.querySelector('.arrays14').innerHTML = fluits;
+        fluits.shift();
+        document.querySelector('.arrays14').innerHTML = fluits;
+        // 첫번쨰 배열요소(??)
+
+        var fruits02 = ['Banana','Orange','Apple','Mango'];
+        document.querySelector('.arrays15').innerHTML = fluits02;
+
+        function myFunction2(){
+            fruits02.unshifht("Lenon");
+            document.querySelector('.arrays15').innerHTML = fluits02;            
+        }//이것도 안나옴....
+        //메소드 외워야함.....
+
+        //앞의 요소를 추가
+
+        var fruits03 = ['Banana','Orange','Apple','Mango'];
+        document.querySelector('.arrays16').innerHTML = "Original Array:<br>"+ fruits03;
+        function myFunction3(){
+            fruits03.slice(1, 0,"Lemon","kiwi");
+            document.querySelector('.arrays16').innerHTML ="New Array:<br>"+ fruits03;
+        }
+    </script>
+        
+</body>
+</html>

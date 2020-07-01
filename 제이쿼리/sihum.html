@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="q">
+        
+    </div>
+    <button onclick="myFunction()">버튼</button>
+
+    <script src="js/jquery-3.2.1.js"></script>
+
+    <script type="text/javascript">
+
+     var f=['Banana','Orange','Apple','Mango'];
+     document.querySelector(".q").innerHTML = f;
+     function myFunction(){
+        var a=prompt("과일이름","사과")   
+        f.unshift(a);
+        document.querySelector(".q").innerHTML = f;  
+     }
+    
+    </script>
+</body>
+</html>

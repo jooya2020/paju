@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제이쿼리 1일차-ES5&ES6</title>
+</head>
+<body>
+    <p id="id"></p>
+    <div class="box"></div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        // document.getElementById
+        // document.getElementsByClassName
+        // document.getElementsByTagName
+        // getElementById 와 getElementsByTagName 의 차이점 S가 추가됨
+
+        // document.getElementById("id")
+        // document.getElementsByClassName("box")
+        // document.getElementsByTagName("p")
+
+        // var num=document.getElementById('id');
+        // document.getElementById('id').innerHTML=2*5
+        // num.innerHTML=2*4
+
+        document.querySelector("#id").innerHTML=10*10
+        document.querySelector(".box").innerHTML=20*20
+
+    </script>
+</body>
+</html>

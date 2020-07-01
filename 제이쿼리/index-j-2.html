@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제이쿼리 1일차-배열</title>
+</head>
+<body>
+    <div class="arrays17"></div>
+    <div class="arrays18">
+        <button onclick="myFunction();">클릭추가</button>
+    </div>
+    <div class="arrays19"></div>
+    
+
+    
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+      var myG = ["c","l"];
+      var myB =["1","2","3"]
+      var myC= myG.concat(myB);
+      document.querySelector(".arrays17").innerHTML = myC;
+
+       // var arr1=["c","l"];
+        // var arr2=["e","t" ,"l"];
+         // var arr3=["r","m"];
+          // var myC=arr1.concat(arr2,arr3);
+
+        var f05=["b","o","a","m"]
+        document.querySelector(".arrays18").innerHTML =f05;
+
+        function myFunction(){
+            f05.sort();
+            document.querySelector(".arrays18").innerHTML=f05;
+        }
+       
+
+        
+        var p=[40, 100, 1,5,25,10];
+        document.querySelector("arrays19").innerHTML =p;
+
+        function myFunction_a(){
+            p.sort(function(a,b){
+                return 0.5 - Math.random()
+            });
+            document.querySelector(".arrays19").innerHTML = p;
+        }
+       
+    </script>
+
+   
+
+        
+</body>
+</html>

@@ -17,270 +17,46 @@
     font-weight: normal;
     font-style: normal;
   }
-
-body{
-    background: #666;
-}
-li {
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+li{
     list-style: none;
 }
 a{
     text-decoration: none;
 }
-/* reset css */
 
-/* section01 start */
-.section01 {
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+  /* reset */
+
+  /* section01 start */
+  /* bg이미지 */
+  .section01{
     background: url("../img/sonata5.jpg");
-    background-position: center;
+    background-position: contain;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
-}
-@media(max-width:767px){
-    .section01{
-        background-position:-900px;
-    }
-}
-/* bg end */
+  }
+  /* logo */
+ 
 
-.brand-logo img {
-    width: 200px;
-    /* padding */
-    padding-top: 25px;
-    padding-left: 25px;
-}
-/* logo end */
-.txt_box{
-    padding-right: 40px;
-    width: 85%;
-    color: #fff;  
-    /* 글자 그림자 */
-    text-shadow: 1px 1px 10px black; 
-    background: rgba(0, 0, 0, 0.4); 
-}
-.txt_box h1{
-    font-family: "BillieHarleyRegular";
-    font-size: 50pt;
-    font-weight: 300;
-
-    /* padding */
-    padding-top: 17%;
-    
-}
-
-.txt_box h2{
-    
-    font-family: "Typo_PapyrusL";
-    font-size: 70pt;
-    font-weight: 300; 
-    
-    
-
-     /* padding */ 
-     
-    
-}
-/* 스크롤 미디어 */
-@media(min-width:354px){
-    .scr_b{
-        top: 40%;
-    }
-}
-
-@media(max-width:750px){
-    .txt_box h1{
-        font-size: 35pt;
-        
-        /* padding */
-        padding-right: 10%;
-        padding-top: 30%;
-    }
-    .txt_box h2{
-        font-size: 28pt;
-        padding-right: 32%;
-    }
-}
-/* text end */
-.scr_b{
-    position: relative;
-    top: 45%;
-}
-/* icon end */
-/* section01 end */
-
-/* section02 start */
-.section02{   
-   background: #00335a;
-}
-.icon_wrab{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.cont{   
-    width: 200px; 
-    display: inline-block;
-    padding: 10px 0 10px 0;
-    border: 1px solid black;
-    margin-bottom: 5px;  
-}
-.cont img{
-width: 100px;
-}
-@media(max-width:363px){
-    .cont{
-        width: 150px;
-    }
-}
-/* section02 end */
-
-
-/* section03 start */
-.section03{
-    padding-top: 200px; 
-}
-/* brand color title start */
-.col-tit{
-    font-size: 40px;    
-}
-.bolder{
-    font-weight: bolder;
-}
-/* brand color title end */
-/* brand color name&img start */
-.bl,.hg ,.ng ,.ob,.mb,.fr{
-    display: none;
-}
-@media(max-width:767px){
-    .wh img,.bl img,.hg img,.ng img,.ob img,.mb img,.fr img{
-        width: 99%;
-        padding-left: 45px;
-    }
-}
-
-/* brand color name&img end */
-/* car-brand-color tab start */
-.car-brand-color{
-    padding-top: 15px;
-}
-.car-brand-color > ul {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.car-brand-color > ul > li {
-    list-style: none;
-    width: 50px;
-    height: 50px;
-    border: 1px solid #ccc;
-    margin: 5px;
-}
-
-#wh {
-    background-color: #f2f4f3;
-}
-#bl {
-    background-color: #abadac;
-}
-#hg{
-    background-color: #6a6c6d;
-}
-#ng{
-    background-color: #4e5357;
-}
-#ob{
-    background-color: #272e39;
-}
-#mb{
-    background-color: #1b1a1d;
-}
-#fr{
-    background-color: #970f1b;
-}
-@media(max-width:767px){
-.t-c-1 h4, .t-c-1 h3{
-    text-align: center!important;
-    /* 가운데 정렬방법?? */
-}
-.car-brand-color > ul > li {    
-    width: 40px;
-    height: 40px;    
-}
-}
-/* car-brand-color tab end */
-/*  */
-/* section03 end */
-
-/* section04 start */
-/* taxt */
-.txt_box_1{
-    padding-top: 70px;
-}
-
-/* img */
-.p_40{
-    padding-top: 40px;
-}
-.p_20{
-    padding-top: 30px;
-}
-.p_300{
-    padding-top: 300px;
-}
-.img_wrab img{
-    width: 100%;
-}
-.txt_box_1 h4:first-child{
-    font-weight: bolder;
-    color: #888888;
-}
-.txt_box_1 h4:nth-child(3){
-    width: 350px;
-    line-height: 30px;
-}
-.border_bottom{
-    width: 50px;
-    border-bottom: 3px solid black;
-}
-/* section04 end */
-
-/* section05 start */
-/* row1 텍스트 */
-.i_1_w{
-    width: 100%;
-    transition: all 1s;
-}
-.i_1_w img{
-    width: 100%;
-}
-.i_1_w:hover{
-transform: scale(1.2);
-filter: opacity(.2);
-}
-.cover{
-    width: 100%;    
-    overflow: hidden;
-    background: #000;
-}
-#p-n{
-    
-}
-@media(min-width:767px){
-    #p-n{
-        padding-left: 0;
-    }
-}
-/* row 간격띄우기 */
-.p-t-50{
-    margin-top: 30px;
-}
-/* 모달슬라이드 start */
-.gud{
-    padding-top: 250px;
-}
-#width800{
-    width: 1040px;
-}
-/* 모달슬라이드 end */
-/* section04 end */
+  /* section01 end */
+  
+  /* section02 start */
+  /* section02 end */
+  
+  /* section03 start */
+  /* section03 end */
+  
+  /* section04 start */
+  /* section04 end */
+  
+  /* section05 start */
+  /* section05 end */
+  
+  /* section06 start */
+  /* section06 end */
+  

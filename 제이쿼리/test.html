@@ -6,7 +6,7 @@
     <title>제이쿼리 1일차-배열</title>
 </head>
 <body>
-    <div class="arrays01"></div>
+    <!-- <div class="arrays01"></div>
     <div class="arrays02"></div>
     <div class="arrays03"></div>
     <div class="arrays04"></div>
@@ -35,18 +35,83 @@
             <button onclick="myFunction3()">클릭</button>
         </p>
     </div>
-    
-
+     -->
+<p class="an"></p>
+<div class="ans"></div>
+<div class="anse"></div>
+<div class="anser"></div>
+<div class="anser1"></div>
+<div class="anser2"></div>
+<div class="anser3"></div>
+<div class="anser4"></div>
+<div class="anser5"></div>
+<div class="anser6"></div>
+<div class="anser7"></div>
+<div class="anser8"></div>
+<div class="anser9"></div>
+<div class="anser10"></div>
+<div class="anser11"></div>
+<div class="anser12"></div>
+<div class="anser13"></div>
     <script src="js/jquery-3.2.1.js"></script>
     <script type="text/javascript">
    
 
-        var fruits03 = ['Banana','Orange','Apple','Mango'];
-        document.querySelector('.arrays16').innerHTML = "Original Array:<br>"+ fruits03;
-        function myFunction3(){
-            fruits03.slice(1, 0,"Lemon","kiwi");
-            document.querySelector('.arrays16').innerHTML ="New Array:<br>"+ fruits03;
-        }
+        // var fruits03 = ['Banana','Orange','Apple','Mango'];
+        // document.querySelector('.arrays16').innerHTML = "Original Array:<br>"+ fruits03;
+        // function myFunction3(){
+        //     fruits03.slice(1, 0,"Lemon","kiwi");
+        //     document.querySelector('.arrays16').innerHTML ="New Array:<br>"+ fruits03;
+        // }
+
+  
+
+        // var fff = ["e","w","q"];
+        // fff.forEach(function(a) {
+        //     document.querySelector(".anse").innerHTML = fff
+        // });
+        // var fff = ["e","w","q"];
+        // fff.push("abc","ddd");
+        // document.querySelector(".anser").innerHTML =fff
+        // var fff = ["e","w","q"];
+        // fff.shift();
+        // document.querySelector(".anser1").innerHTML =fff
+
+        // var fff = ["e","w","q"];
+        // fff.pop();
+        // document.querySelector(".anser2").innerHTML =fff
+        // var fff = ["e","w","q"];
+        // fff.toString();
+        // document.querySelector(".anser3").innerHTML =fff.toString();
+        // var fff = ["e","w","q"];
+        // fff.join("*");
+        // document.querySelector(".anser4").innerHTML =fff.join("*");
+
+
+
+
+
+        var fff = ["e","w","q"];
+        document.querySelector(".anser").innerHTML =fff.push("abc","ddd");
+
+        var fff = ["e","w","q"];        
+        document.querySelector(".anser2").innerHTML = fff.pop();
+
+        var fff = ["e","w","q"];        
+        document.querySelector(".anser3").innerHTML =fff.toString();
+
+        var fff = ["e","w","q"];
+        document.querySelector(".anser4").innerHTML =fff.join("*");
+
+        var fff = ["e","w","q"];
+        document.querySelector(".anser5").innerHTML =fff.unshift("a","t");
+
+        var fff = ["e","w","q","a","b","c"];
+        
+        document.querySelector(".anser6").innerHTML ="Original Array:<br>" + fff;
+        fff.splice(1,1, "Lemon", "Kiwi", "Peach");
+        document.querySelector(".anser7").innerHTML="New Array:<br>" + fff;
+
     </script>
         
 </body>

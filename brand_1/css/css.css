@@ -8,6 +8,15 @@
     font-weight: normal;
     font-style: normal;
   }
+  @font-face {
+    font-family: "Typo_PapyrusL";
+    src: url("../fonts/Typo_PapyrusL.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/Typo_PapyrusL.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("../fonts/Typo_PapyrusL.woff") format("woff"), /* Modern Browsers */
+      url("../fonts/Typo_PapyrusL.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
 
 body{
     background: #666;
@@ -44,9 +53,12 @@ a{
 }
 /* logo end */
 .txt_box{
+    padding-right: 40px;
+    width: 85%;
     color: #fff;  
     /* 글자 그림자 */
-    text-shadow: 1px 1px 10px black;  
+    text-shadow: 1px 1px 10px black; 
+    background: rgba(0, 0, 0, 0.4); 
 }
 .txt_box h1{
     font-family: "BillieHarleyRegular";
@@ -54,15 +66,21 @@ a{
     font-weight: 300;
 
     /* padding */
-    padding-top: 20%;
-    padding-bottom: 30px;
+    padding-top: 17%;
+    
 }
+
 .txt_box h2{
-    font-size: 40pt;
+    
+    font-family: "Typo_PapyrusL";
+    font-size: 70pt;
     font-weight: 300; 
+    
+    
 
      /* padding */ 
-    padding-right: 10%;
+     
+    
 }
 /* 스크롤 미디어 */
 @media(min-width:354px){

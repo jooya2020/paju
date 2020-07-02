@@ -272,6 +272,16 @@ body{
 .txt_box_1{
     padding-top: 70px;
 }
+.in_9{
+    width: 99%;
+    display: inline-block;
+    height: auto;
+}
+.in_9 p{
+    font-size: 17px;
+    line-height: 28px;
+    padding-top: 8px;
+}
 @media(max-width:376px){
     #w_1{ 
         width: 315px;       
@@ -349,5 +359,24 @@ body{
     margin-left:47% ;
     margin-top: 20px;
     border-bottom:4px solid black ;
+}
+
+/* tab */
+/* #h-bg-a{
+   background: #001f45;
+   border-top-left-radius: 5px 5px;
+   border-top-right-radius: 5px 5px;
+} */
+.h-bg{
+    width: 96%;
+   
+}
+.h-bg li{
+    width: 49.9%;
+}
+#h-bg-a{
+    text-align: center;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
 }
 /* @keyframes */

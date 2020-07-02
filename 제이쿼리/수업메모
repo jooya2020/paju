@@ -177,3 +177,9 @@ random
 aos 애니메이션 // 있는듯 없는듯 넣는게 좋음 일정한 간격으로 왼/좌/위아래 반복
 
 
+콘솔  인터넷 안보이는 영역
+ innerHTML html에 맞춰서 변환
+ innerText 글자만 변환
+
+ title.innerHTML = this.innerHTML;
+ 순서를 바꾸면 태그가 적용이 안됨

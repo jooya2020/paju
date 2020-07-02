@@ -139,3 +139,7 @@ $(function(){
       $('.inner_left_img').css('transform','scale(1)');
    });
 })
+//tooltip
+$(document).ready(function(){
+   $('[data-tooltip]').tooltip();
+ });

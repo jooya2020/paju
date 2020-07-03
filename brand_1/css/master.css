@@ -154,7 +154,8 @@ body{
 }
 /* section03 start */
 .section03{
-    padding-top: 100px;   
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .col-tit{
@@ -272,6 +273,29 @@ body{
 }
 /* section03 end */
 /* section04 start */
+.view {
+    width:1900px;
+    height:260px;
+    position: absolute;
+    border:1px solid red;
+    overflow: hidden;
+
+
+
+
+
+  }
+
+  .scrollBlind {
+    width:1920px;
+    height:100%;
+    overflow-y:scroll;
+    background-color: green;
+
+
+
+
+  }
 /* taxt */
 .txt_box_1{
     padding-top: 70px;
@@ -349,7 +373,7 @@ body{
 /* section04 end */
 /* section05 start */
 .section05{
-    padding-top: 100px;
+    padding-top: 300px;
 }
 .p-t-40{
     padding-top: 30px;

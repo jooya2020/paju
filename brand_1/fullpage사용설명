@@ -1,0 +1,16 @@
+<script>
+            $(document).ready(function(){
+                $('#fullpage').fullpage({
+                    verticalCentered:true,
+                    // 여기부터
+                    anchors:['anchor1','anchor1','anchor1'],
+                    menu:'#menu',
+                    sectionsColor:['#999','#777','#555']
+                    // 여기까지는 없어도됨
+                });
+            });
+        </script>
+
+플러그인 넣을때 방법!
+        1)플러그인 적용시 예제 html을 보고 넣어야하는 css,js 다 링크걸기
+        2)인터넷에 검색해서 관련된것 확인하기//codpen 등에서 클래스명이나 자바스크립트 설정 코드 등을 확인

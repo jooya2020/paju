@@ -4,213 +4,233 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="js/jquery.min.js"></script>
+        <!--[if IE]> <script type="text/javascript"> var console = { log: function() {}
+        }; </script> <![endif]-->
         <script src="bootstrap/bootstrap.min.js"></script>
+        <script
+            src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+        <script src="js/scrolloverflow.min.js"></script>
+
+        <link rel="stylesheet" href="css/fullpage.min.css">
         <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="css/master.css">
+        <link rel="stylesheet" type="text/css" href="css/examples.css"/>
+
         <title>sonata</title>
+
     </head>
     <body>
-        <section class="section01">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-1 brand-logo">
-                        <img src="img/hyundai-logo-wide-blue.png" alt="로고">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="left_txt text_box">
-                            <h1>Light up your own edge!</h1>
-                            <div class="sub_title_bg">
-                                <h3>'나만에 엣지에 불을 켜라!'
-                                </h3>
-                                <h4>쏘나타 2020</h4>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-                
-            </div>
-        </section>
-        <!-- section1 end -->
-        <section class="section1-1 container-fluid">
-           <div class="c-s container">
-               
-               <div class="row text-center car_icon">
-                
-                   <div class="col-sm-2 col-sm-offset-2">
-                        <img src="img/cam.png" alt="캠">
-                        <h4>빌트인 캠</h4>
-                   </div>
-                   <div class="col-sm-2">
-                        <img src="img/cam.png" alt="캠">
-                        <h4>빌트인 캠</h4>
-                   </div>
-                   <div class="col-sm-2">
-                        <img src="img/cam.png" alt="캠">
-                        <h4>빌트인 캠</h4>
-                   </div>
-                   <div class="col-sm-2">
-                        <img src="img/cam.png" alt="캠">
-                        <h4>빌트인 캠</h4>
-                   </div>
-                   
-               </div>
-            
-           </div>
-           <div class="border_b1"></div>
-        </section>
-      <!-- section1-1 end -->
-        <section>
-            <div class="container">
-                <div class="section02">
-                    <!-- car -->
+        <section id="fullpage">
+            <!-- section01 start -->
+            <div class="section">
+                <section class="section01 container-fluid">
                     <div class="row">
-                        <div class="col-sm-12 text-center">
-                            <div class="wh">
-                                <img src="img/001.webp" alt="화이트크림">
-                            </div>
-                            <div class="bl">
-                                <img src="img/002.webp" alt="쉬머링 실버">
-                            </div>
-                            <div class="hg">
-                                <img src="img/003.webp" alt="햄턴 그레이">
-                            </div>
-                            <div class="ng">
-                                <img src="img/004.webp" alt="녹턴 그레이">
-                            </div>
-                            <div class="ob">
-                                <img src="img/005.webp" alt="옥스퍼드 블루">
-                            </div>
-                            <div class="mb">
-                                <img src="img/006.webp" alt="미드나잇 블랙">
-                            </div>
-                            <div class="fr">
-                                <img src="img/008.png" alt="플레임 레드">
+                        <div class="col-sm-2">
+                            <div class="logo_wrab">
+                                <img src="img/hyundai-logo-wide-blue.png" alt="로고">
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="continaer">
-                    <div class="row text-center">
-                        <div class="col-sm-4">
-                            <ul>
-                                <li class="wh">
-                                    <h2>화이트크림</h2>
-                                </li>
-                                <li class="bl">
-                                    <h2>쉬머링 실버</h2>
-                                </li>
-                                <li class="hg">
-                                    <h2>햄턴 그레이</h2>
-                                </li>
-                                <li class="ng">
-                                    <h2>녹턴 그레이</h2>
-                                </li>
-                                <li class="ob">
-                                    <h2>옥스퍼드 블루</h2>
-                                </li>
-                                <li class="mb">
-                                    <h2>미드나잇 블랙</h2>
-                                </li>
-                                <li class="fr">
-                                    <h2>플레임 레드</h2>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-6 car-brand-color">
-                            <ul>
-                                <li id="wh"></li>
-                                <li id="bl"></li>
-                                <li id="hg"></li>
-                                <li id="ng"></li>
-                                <li id="ob"></li>
-                                <li id="mb"></li>
-                                <li id="fr"></li>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class=" title01">
+                                <h1>Light up your own edge!</h1>
+                                <h2>쏘나타 2020</h2>
 
-                            </ul>
+                            </div>
                         </div>
-
                     </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="g_wrap">
+                                <a href="#section02"><img src="img/scroll-icon.gif" alt="스크롤버튼"></a>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-            </div>
+                <!-- section01 end -->
+
+                <!-- section02 start -->
+                <div class="section fp-auto-height">
+                    <section class="section02 container-fluid">
+                        <div class="container">
+                            <div class="row ">
+                                <div class="i_w">
+                                    <div class="i_box">
+                                        <div class="i_r">
+                                            <img src="img/icon_4.png" alt="디지털키">
+                                        </div>
+                                        <h4>디지털키</h4>
+                                    </div>
+                                    <div class="i_box">
+                                        <div class="i_r">
+                                            <img src="img/icon_3.png" alt="빌트인 캠">
+                                        </div>
+                                        <h4>빌트인 캠</h4>
+                                    </div>
+                                    <div class="i_box">
+                                        <div class="i_r">
+                                            <img src="img/icon_2.png" alt="음성인식">
+                                        </div>
+                                        <h4>음성인식</h4>
+                                    </div>
+                                    <div class="i_box">
+                                        <div class="i_r">
+                                            <img src="img/icon_1.png" alt="AI 주차">
+                                        </div>
+                                        <h4>AI 주차</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- section02 end -->
+
+                <!-- section03 start -->
+                <div class="section">
+                    <section class="section03 container-fluid" id="pullpage03">
+                        <div class="container">
+                            <h1 class="text-center col-tit bolder ">
+                                DESIGN COLOR</h1>
+                            <!-- car -->
+                            <div class="row">
+
+                                <div class="col-sm-10 p_l">
+                                    <div class="wh">
+                                        <img src="img/001.webp" alt="화이트크림">
+                                    </div>
+                                    <div class="bl">
+                                        <img src="img/002.webp" alt="쉬머링 실버">
+                                    </div>
+                                    <div class="hg">
+                                        <img src="img/003.webp" alt="햄턴 그레이">
+                                    </div>
+                                    <div class="ng">
+                                        <img src="img/004.webp" alt="녹턴 그레이">
+                                    </div>
+                                    <div class="ob">
+                                        <img src="img/005.webp" alt="옥스퍼드 블루">
+                                    </div>
+                                    <div class="mb">
+                                        <img src="img/006.webp" alt="미드나잇 블랙">
+                                    </div>
+                                    <div class="fr">
+                                        <img src="img/008.png" alt="플레임 레드">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container p-t-150 ">
+
+                            <div class="row text-center bg_03">
+
+                                <div class="col-sm-4 p-11">
+                                    <h2 class="bolder text-center ul_1">Exterior color</h2>
+                                    <ul class="ul_1">
+                                        <li class="wh">
+                                            <h3>화이트크림</h3>
+                                        </li>
+                                        <li class="bl">
+                                            <h3>쉬머링 실버</h3>
+                                        </li>
+                                        <li class="hg">
+                                            <h3>햄턴 그레이</h3>
+                                        </li>
+                                        <li class="ng">
+                                            <h3>녹턴 그레이</h3>
+                                        </li>
+                                        <li class="ob">
+                                            <h3>옥스퍼드 블루</h3>
+                                        </li>
+                                        <li class="mb">
+                                            <h3>미드나잇 블랙</h3>
+                                        </li>
+                                        <li class="fr">
+                                            <h3>플레임 레드</h3>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="car-brand-color ">
+                                    <ul class="ul_1">
+                                        <li id="wh"></li>
+                                        <li id="bl"></li>
+                                        <li id="hg"></li>
+                                        <li id="ng"></li>
+                                        <li id="ob"></li>
+                                        <li id="mb"></li>
+                                        <li id="fr"></li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                          
+                    </section>
+                </div>
+            <!-- section03 end -->
+                <div class="section">
+                    <section class="section04 container-fluid" id="pullpage04">
+                        <div class="container">
+                            <div class="row container ">
+                                <div class="col-sm-4">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="txt_box_1">
+                                                <h4>새로운 라이트 엣지
+                                                </h4>
+                                                <div class="border_bottom"></div>
+                                                <div class="in_9">
+                                                    <p >조명이 켜지면 비밀에 대해 알 수 있습니다. 쏘나타의 히든 라이팅은 크롬 트림의 일부로써 독창적인 디자인으로 쏘나타의 업그레이드 기능들의
+                                                        톤을 암시합니다. 그리고 주간주행등은 이 모든 변화의 시작에 불과합니다.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12 img_1">
+                                            <div class="img_wrab p_40 l-b">
+                                                <a href="#none" data-toggle="modal" data-target="#myModal1"><img src="img/sonata_light.png" alt="이미지1"></a>
+                                            </div>
+        
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="row p_20">
+                                        <div class="col-sm-12 ">
+                                            <div class="img_wrab">
+                                                <a href="#none" data-toggle="modal" data-target="#myModal2"><img src="img/bul-1.jpg" alt="이미지2"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p_20">
+                                        <div class="col-sm-12 ">
+                                            <div class="img_wrab">
+                                                <a href="#none" data-toggle="modal" data-target="#myModal3"><img src="img/bul-2.jpg" alt="이미지2"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
         </section>
-        <!-- section2 end -->
-        <section class="section03">
-<!-- 팝업 modal, light box -->
-<!-- tooltip 모달대신 적용해도됨 -->
-<!-- <div class="container-fluid"> -->
-    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal"
-    data-taget="#modal1"></button> -->
-    <!-- button 말고 img 도 토글 타겟 넣으면 됨 -->
-    <!-- 부트스트랩 라이트 박스 -->
-    <!-- 레이아웃 외부 내부 따로 설명 -->
-    <!-- <img src="img/001.webp"data-toggle="modal" data-target="#myModal"> -->
 
-    <!-- <div id="myModal" class="modal fade" role="dialog"> -->
-    <!-- 디자인의 형태 -->
-    <!-- <div class="modal-dialog" > -->
-    <!-- modal content -->
-    <!-- <img src="img/008.png" alt="" > -->
-    <!-- </div> -->
-    <!-- </div> -->
-<!-- </div> -->
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#fullpage').fullpage({
+                    // sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+                    // autoScrolling: true
+                });
+            });
+        </script>
 
-<div class="container-fluid">
-    <div class="padding_50 container">
-        <div class="row">
-            <!-- 왼쪽 섹션 -->
-            <div class="left_part col-sm-4">
-                <div class="row">
-                    <div class="txt_box">
-                        <h4>인사이드 미래 스타일 </h4>
-                        <div class="border_bottom"></div>
-                        <h4>안락함과 편의성, 세련된 스타일을 선사하는
-                             모던하고 깔끔한 공간과 그 안에 자리잡은
-                             사려깊고 혁신적인 기능들로 새롭게 준비된
-                             이 모든 것들을 누려보십시오. </h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="inner_left_wrab">
-                        <div class="inner_left_img"></div>
-                    </div>
-                </div>
-               
-            </div>
-             <!-- 오른쪽 섹션 -->
-            <div class="right_part col-sm-8">
-                <!-- 오른쪽 첫째줄 -->
-                <div class="row">
-                    <div class="wide_wrab">
-                        <div class="wide_width">
-                            
-                        </div>
-                    </div>
-                </div>
-                <!-- 오른쪽 둘째줄 -->
-                <div class="mini_width row">
-
-                    <div class="col-sm-7">
-                        <div class="inner_wrab_2 ">
-                            <div class="inner_2_bg"></div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-5">
-                        <div class="inner_wrab_3 ">
-                            <div class="inner_3_bg"></div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-        </section>
-        <!-- section3 end -->
+        <script src="js/fullpage.min.js"></script>
+        <script type="text/javascript" src="examples.js"></script>
         <script src="js/js_01.js"></script>
-</body>
+    </body>
 </html>

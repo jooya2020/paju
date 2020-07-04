@@ -79,7 +79,7 @@ body{
 }
 @media(max-width:376px){
     #white{
-        padding-top: 70px;
+        padding-top: 65px;
     }
     #white h1{
         font-size: 26pt!important;
@@ -100,7 +100,7 @@ body{
 }
 @media(max-width:767px){
     #white{
-        padding-top: 70px;
+        padding-top: 65px;
     }
     .title01{ 
         padding-top: 0;
@@ -123,7 +123,7 @@ body{
 }
 @media(max-width:376px){
     .g_wrap{        
-        padding-top:77%;        
+        padding-top:75%;        
     }
     .g_wrap img{
         width: 40px;
@@ -132,7 +132,7 @@ body{
 @media(max-width:767px){
     .g_wrap{
         text-align: center;
-        padding-top: 77%;
+        padding-top: 75%;
     }
     .g_wrap img{
         width: 40px;

@@ -79,13 +79,13 @@ body{
 }
 @media(max-width:376px){
     .title01{    
-        font-size: 30pt; 
+        font-size: 30pt!important; 
         padding-top: 0!important;
         padding-right: 0;
     }
     .title01 h2{
-        padding-top: 20px;
-        font-size: 50pt;
+        padding-top: 20px!important;
+        font-size: 50pt!important;
     }
 }
 @media(max-width:767px){

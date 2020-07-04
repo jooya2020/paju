@@ -44,7 +44,7 @@ body{
   @media(max-width:376px){
     .section01{
         background-position: -600px -30px!important;
-        height: 90vh;
+        height: 80vh;
         width: 100%;
     }
 }

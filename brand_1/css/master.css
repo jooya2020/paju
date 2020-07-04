@@ -81,6 +81,9 @@ body{
     #white{
         padding-top: 70px;
     }
+    #white h1{
+        font-size: 25pt!important
+    }
     .title01{ 
         padding-right: 0;
     }

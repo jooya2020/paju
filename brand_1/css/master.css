@@ -56,7 +56,11 @@ body{
     margin-top: 10px;
     
 }
-
+@media(max-width:767px){
+    .logo_wrab>img{
+        width: 30%;
+    }
+}
 /* title */
 #white{
     color: #fff;

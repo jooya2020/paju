@@ -78,9 +78,13 @@ body{
     margin-top: 10px;
 }
 @media(max-width:376px){
-    .title01{     
+    .title01{    
+        font-size: 40pt; 
         margin-top: 25px;
         padding-right: 0;
+    }
+    .title01 h2{
+        font-size: 60pt;
     }
 }
 @media(max-width:767px){

@@ -43,7 +43,7 @@ body{
   }
   @media(max-width:376px){
     .section01{
-        background-position:-1000px !important;
+        background-position:center !important;
     }
 }
 @media(max-width:767px){

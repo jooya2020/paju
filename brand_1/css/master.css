@@ -44,6 +44,8 @@ body{
   @media(max-width:376px){
     .section01{
         background-position: -600px -30px!important;
+        height: 100vh;
+        width: 100%;
     }
 }
 @media(max-width:767px){
@@ -175,12 +177,14 @@ body{
     .i_box{
         width: 100px;     
     }
-
+   
 }
 @media(max-width:767px){
     .i_box{
         width: 150px; 
         padding: 20px 0;    
     }
-   
+    .i_r img{
+        width: 40%;
+    }
 }

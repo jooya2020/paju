@@ -79,7 +79,7 @@ body{
 }
 @media(max-width:376px){
     #white{
-        padding-top: 65px;
+        padding-top: 60px;
     }
     #white h1{
         font-size: 26pt!important;

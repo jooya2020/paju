@@ -37,7 +37,7 @@ body{
     background: url("../img/sonata5.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     height: 100vh;
     width: 100%;
   }

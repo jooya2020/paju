@@ -80,7 +80,7 @@ body{
 @media(max-width:376px){
     .title01{    
         font-size: 30pt; 
-        padding-top: 0;
+        padding-top: 0!important;
         padding-right: 0;
     }
     .title01 h2{

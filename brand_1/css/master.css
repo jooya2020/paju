@@ -82,7 +82,8 @@ body{
         padding-top: 70px;
     }
     #white h1{
-        font-size: 26pt!important
+        font-size: 26pt!important;
+        font-weight: 600;
     }
     .title01{ 
         padding-top: 0;
@@ -130,4 +131,40 @@ body{
         text-align: center;
         padding-top: 100%;
     }
+}
+/* section02 start */
+/* icon */
+.section02{
+    background: #1b293a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.i_w{
+    text-align: center;
+}
+.i_box{
+    width: 170px;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 10px 0;
+    margin-top: 5px;
+}
+.i_r{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.i_box h4{
+    color: #fff;
+    text-align: center;    
+}
+@media(max-width:376px){
+    .i_box{
+        width: 150px;     
+    }
+}
+@media(max-width:767px){
+    
 }

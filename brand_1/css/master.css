@@ -78,26 +78,33 @@ body{
     margin-top: 10px;
 }
 @media(max-width:376px){
-    .title01{            
+    #white{
         padding-top: 70px!important;
+    }
+    .title01{            
+       
         padding-right: 0;
     }
     .title01 h1{
-        font-size: 30pt!important; 
+        font-size: 26pt!important; 
     }
     .title01 h2{
         padding-top: 20px!important;
         font-size: 40pt!important;
     }
+
 }
 @media(max-width:767px){
+    #white{
+        padding-top: 70px!important;
+    }
     .title01{             
-        padding-top: 70px;
+       
         padding-right: 0;
     }
     .title01 h1{
         font-family: "BillieHarleyRegular";
-        font-size: 30pt;
+        font-size: 26pt;
         text-align: center;
     }  
     .title01 h2{

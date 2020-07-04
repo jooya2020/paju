@@ -173,13 +173,13 @@ body{
 }
 @media(max-width:376px){
     .i_box{
-        width: 150px;     
+        width: 100px;     
     }
 
 }
 @media(max-width:767px){
     .i_box{
-        width: 200px; 
+        width: 150px; 
         padding: 20px 0;    
     }
    

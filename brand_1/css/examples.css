@@ -33,7 +33,7 @@ caption,th {
 }
 h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
-    font-size: 100%;
+    /* font-size: 100%; */
     margin:0;
     padding:0;
     
@@ -59,10 +59,10 @@ body{
 	position: relative;
 }
 h1{
-	font-size: 6em;
+	/* font-size: 6em; */
 }
 p{
-	font-size: 2em;
+	/* font-size: 2em; */
 }
 .intro p{
 	width: 50%;
@@ -170,7 +170,7 @@ p{
 	bottom:0;
 	width:100%;
 	text-align:right;
-	font-size:0.9em;
+	/* font-size:0.9em; */
 	padding:8px 0 8px 0;
 }
 #infoMenu ul{
@@ -222,7 +222,7 @@ p{
 }
 #examplesList h3{
 	color: #f2f2f2;
-	font-size: 1.2em;
+	/* font-size: 1.2em; */
 	margin: 0 0 15px 0;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);

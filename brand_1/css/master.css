@@ -123,13 +123,19 @@ body{
 }
 @media(max-width:376px){
     .g_wrap{        
-        padding-top: 100%;        
+        padding-top: 90%;        
+    }
+    .g_wrap img{
+        width: 40px;
     }
 }
 @media(max-width:767px){
     .g_wrap{
         text-align: center;
-        padding-top: 100%;
+        padding-top: 90%;
+    }
+    .g_wrap img{
+        width: 40px;
     }
 }
 /* section02 start */

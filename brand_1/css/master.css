@@ -37,20 +37,14 @@ body{
     background: url("../img/sonata5.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     height: 100vh;
     width: 100%;
   }
-  @media(max-width:376px){
-    .section01{
-        background-position: -600px !important;
-        height:100vh;
-        width: 100%;
-    }
-}
+
 @media(max-width:767px){
     .section01{
-        background-position:-950px;
+        background-position:-850px;
     }
 }
 /* logo */
@@ -83,30 +77,11 @@ body{
     font-size: 70pt;
     margin-top: 10px;
 }
-@media(max-width:376px){
-    #white{
-        padding-top: 50px;
-    }
-    #white h1{
-        font-size: 24pt!important;
-        font-weight: 600;
-    }
-    .title01{ 
-        padding-top: 0;
-        padding-right: 0;
-    }
-    .title01 h1{
-        font-size: 24pt!important; 
-    }
-    .title01 h2{
-        padding-top: 20px!important;
-        font-size: 36pt!important;
-    }
 
-}
 @media(max-width:767px){
     #white{
-        padding-top: 50px;
+        padding-top: 150px;
+        padding-bottom: 120px;
     }
     .title01{ 
         padding-top: 0;
@@ -127,21 +102,14 @@ body{
     text-align: center;
     padding-top: 27%;
 }
-@media(max-width:376px){
-    .g_wrap{        
-        padding-top:82%;        
-    }
-    .g_wrap img{
-        width: 40px;
-    }
-}
+
 @media(max-width:767px){
     .g_wrap{
         text-align: center;
         padding-top: 82%;
     }
     .g_wrap img{
-        width: 40px;
+        width: 50px;
     }
 }
 /* section02 start */
@@ -173,12 +141,7 @@ body{
     color: #fff;
     text-align: center;    
 }
-@media(max-width:376px){
-    .i_box{
-        width: 100px;     
-    }
-   
-}
+
 @media(max-width:767px){
     .i_box{
         width: 150px; 
@@ -189,3 +152,292 @@ body{
         height: 40%;
     }
 }
+/* section03 start */
+.section03{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.col-tit{
+    font-size: 30px;    
+}
+.titel_bg{
+    width: 100%;
+    height: 10px;
+}
+.titel_border{
+    width: 100px;
+    border-bottom: 3px solid #555;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+@media(max-width:767px){
+    .titel_border{
+        width: 90px;        
+    }
+    .p_l{
+        padding-top: 40px;
+    }
+}
+.bolder{
+    font-weight: bolder;
+}
+.p-t-150{
+    margin-top: 50px;
+}
+.til-c-1{
+    width: 35%;
+}
+.ul_1 h3{
+    margin:0!important;
+    font-size: 20pt;
+}
+.ul_2{
+    margin:0!important;
+    margin-top: 10px!important;
+    font-size: 20pt;
+}
+
+@media(max-width:767px){
+    .col-tit{
+        font-size: 20pt;
+    }
+ 
+    .ul_2 h3{
+        font-size: 15pt;
+    }
+    .ul_2{
+        font-size: 16pt;
+    }
+}
+
+.car-brand-color{
+    padding-top: 15px;
+}
+.car-brand-color > ul {
+    display: flex;
+}
+
+.car-brand-color > ul > li {
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+#wh {
+    background-color: #f2f4f3;
+}
+#bl {
+    background-color: #abadac;
+}
+#hg{
+    background-color: #6a6c6d;
+}
+#ng{
+    background-color: #4e5357;
+}
+#ob{
+    background-color: #272e39;
+}
+#mb{
+    background-color: #1b1a1d;
+}
+#fr{
+    background-color: #970f1b;
+}
+.bl,.hg ,.ng ,.ob,.mb,.fr{
+    display: none;
+}
+.ul_1{
+    display: flex ;
+    justify-content: center;
+    padding-left: 0!important;
+}
+.bg_03{    
+    padding-bottom: 100px;
+    border-bottom: 1px solid #999;
+}
+.p-11{
+    padding-left: 100px;
+}
+.wh img,.bl img,.hg img,.ng img,.ob img,.mb img,.fr img{
+    padding-left: 180px;
+}
+@media(max-width:767px){
+    .wh img,.bl img,.hg img,.ng img,.ob img,.mb img,.fr img{
+        padding-left: 0;
+        width: 425px;
+    }
+    #wh,#bl,#hg,#ng,#ob,#mb,#fr{
+        margin-right: 10px;
+        height:31px;
+    }
+    .p_l{
+        margin-left: -25px;
+    }
+    .p-11{
+        padding-left: 10px;
+    }
+}
+
+/* section04 start */
+.view {
+    width:1900px;
+    height:260px;
+    position: absolute;
+    border:1px solid red;
+    overflow: hidden;
+}
+.scrollBlind {
+    width:1920px;
+    height:100%;
+    overflow-y:scroll;
+    background-color: green;
+  }
+/* taxt */
+.txt_box_1{
+    padding-top: 70px;
+    text-align: left;
+}
+@media(max-width:767px){
+    .txt_box_1{
+        padding-top: 0;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+}
+.in_9{
+    width: 99%;
+    display: inline-block;
+    height: auto;
+}
+.in_9 p{
+    font-size: 17px;
+    line-height: 28px;
+    padding-top: 8px;
+}
+
+/* img */
+
+.p_40{
+    margin-top: 40px;
+}
+.p_20{
+    padding-top: 30px;
+}
+.p_300{
+    padding-top: 300px;
+}
+
+.img_wrab{
+    overflow: hidden;
+}
+.img_wrab img{
+    width: 100%;
+    transition: all 1s;
+}
+.img_wrab img:hover{
+    transform: scale(1.2);
+}
+@media(max-width:767px){
+    .img_wrab{
+        height: 100px;
+    }
+    .img_1{
+        margin-top: -100px;
+    }
+    .img_2{
+        margin-top: -10px;
+    }
+    .img_3{
+        margin-top: -20px;
+    }
+}
+.txt_box_1 h4:first-child{
+    font-weight: bolder;
+    color: #888888;
+}
+.txt_box_1 h4:nth-child(3){
+    width: 350px;
+    line-height: 30px;
+}
+.border_bottom{
+    width: 50px;
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+}
+.B_B{
+    width: 100%;
+}
+@media(max-width:767px){
+    .border_bottom{
+        margin: 0 auto;
+    }
+    .in_9{
+        width: 100%;
+        
+    }
+    .in_9 p{
+        width: 255px;
+        font-size: 13pt;
+        margin: 0 auto;
+    }
+}
+
+/* modal */
+input[id*="pop"]{
+    display: none;
+}
+input[id*="pop"] + label{
+    display: inline-block;
+    
+}
+input[id*="pop"] + label + div{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    z-index: 100;
+}
+input[id*="pop"] + label + div > div{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 500px;
+    height: 300px;
+    background: #fff;
+    z-index: 2;
+}
+input[id*="pop"] + label + div > div> label{
+    position: absolute;
+    top:0%;
+    right: 0%;
+    transform:translate(40%,-40%);
+    padding:20px;
+    background: #dd5437;
+    border-radius: 100%;
+    z-index:1;
+}
+input[id*="pop"] + label + div > label{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0,0,0,.9);
+    z-index:1;
+}
+/* input[id*="pop"] + label + div{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s;    
+}
+input[id*="pop"]:checked + label + div{
+    opacity: 1;
+    visibility: visible;
+} */
+/* section04 end */

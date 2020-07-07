@@ -8,26 +8,57 @@
         <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="css/master.css">
         <title>sonata</title>
+        <style>
+           /* #right_panel {
+                position: absolute;
+                width: 96px;
+                padding-left: 4px;
+                height: 100%;
+                right: 0;
+                background-color: #f0f0f0;
+            }
+
+            #resize {
+                background-color: #ccc;
+                position: absolute;
+                left: 0;
+                width: 4px;
+                height: 100%;
+                cursor: w-resize;
+            }
+            .bg{
+                position: absolute;
+            }
+
+        </style>
     </head>
     <body>
-<!-- 팝업 modal, light box -->
-<!-- tooltip 모달대신 적용해도됨 -->
-<div class="container-fluid">
-        <button type="button" class="btn btn-info btn-lg" data-toggle="modal"
-        data-taget="#modal1"></button>
-    <!-- button 말고 img 도 토글 타겟 넣으면 됨 -->
-    <!-- 부트스트랩 라이트 박스 -->
-    <!-- 레이아웃 외부 내부 따로 설명 -->
-    <img src="img/001.webp"data-toggle="modal" data-target="#myModal">
+        <div id="right_panel">
+            <div id="resize">              
+            </div>
+            <div class="bg">
+                <img src="img/sonata5.jpg" alt="">
+            </div>
+            
+        </div>
+        <script>
+            var m_pos;
+            function resize(e){
+                var parent = resize_el.parentNode;
+                var dx = m_pos - e.x;
+                m_pos = e.x;
+                parent.style.width = (parseInt(getComputedStyle(parent, '').width) + dx) + "px";
+            }
 
-    <div id="myModal" class="modal fade" role="dialog">
-    <!-- 디자인의 형태 -->
-    <!-- <div class="modal-dialog" > -->
-    <!-- modal content -->
-    <img src="img/008.png" alt="" >
-    </div> -->
-    </div>
-</div>
-        <script src="js/js_01.js"></script>
+            var resize_el = document.getElementById("resize");
+            resize_el.addEventListener("mousedown", function(e){
+                m_pos = e.x;
+                document.addEventListener("mousemove", resize, false);
+            }, false);
+            document.addEventListener("mouseup", function(){
+                document.removeEventListener("mousemove", resize, false);
+            }, false);
+        </script> */
+           
     </body>
 </html>

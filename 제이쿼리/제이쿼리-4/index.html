@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+    <script src="js/jquery-3.2.1.js"></script>
+    <script>
+        function sendRequest(){
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function(){
+                if(httpRequest.readyState == XMLHttpRequest.DONE && httpRequest.status == 200) {
+                    document.getElementById('text').innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("GET","data.php");
+            xhttp.send();
+        }
+
+        //문서연동 ajax 데이터는 php이용
+    </script>
+</body>
+</html>

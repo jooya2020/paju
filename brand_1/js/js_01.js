@@ -143,3 +143,30 @@ $(function(){
 $(document).ready(function(){
    $('[data-tooltip]').tooltip();
  });
+ //tab
+ $(function(){
+   $('#t-1').click(function(){
+      $('#tbox-1').css("display","block").fadeIn();
+      $('#tbox-2').css("display","none").fadeOut();
+      $('#tbox-3').css("display","none").fadeOut();
+      $('#tbox-4').css("display","none").fadeOut();
+   });
+   $('#t-2').click(function(){
+      $('#tbox-1').css("display","none").fadeOut();
+      $('#tbox-2').css("display","block").fadeIn();
+      $('#tbox-3').css("display","none").fadeOut();
+      $('#tbox-4').css("display","none").fadeOut();
+   });
+   $('#t-3').click(function(){
+      $('#tbox-1').css("display","none").fadeOut();
+      $('#tbox-2').css("display","none").fadeOut();
+      $('#tbox-3').css("display","block").fadeIn();
+      $('#tbox-4').css("display","none").fadeOut();
+   });
+   $('#t-4').click(function(){
+      $('#tbox-1').css("display","none").fadeOut();
+      $('#tbox-2').css("display","none").fadeOut();
+      $('#tbox-3').css("display","none").fadeOut();
+      $('#tbox-4').css("display","block").fadeIn();
+   });
+ });

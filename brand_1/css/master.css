@@ -44,7 +44,10 @@ body{
 
 @media(max-width:767px){
     .section01{
-        background-position:-900px;
+        background: url("../img/sonata5-1.jpg");
+        background-position:right;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 /* logo */
@@ -461,11 +464,7 @@ input[id*="pop"]:checked + label + div{
    padding-top: 100px;
    padding-bottom: 200px;
 }
-@media(max-width:767px){
-    .section05{
-        padding-bottom: 100px;
-    }
-}
+
 .p-t-40{
     padding-top: 30px;
 }
@@ -518,7 +517,9 @@ input[id*="pop"]:checked + label + div{
 }
 #home,#menu1,#menu2,#menu3{
     width: 100%; 
+    height: 100%;
 }
+
 
 @media(max-width:767px){
     #home ,#menu1,#menu2,#menu3{
@@ -526,34 +527,32 @@ input[id*="pop"]:checked + label + div{
         
     }
 }
-.rel{
-    margin-top: 30px!important;
-}
+
 
 .rel-po{
     width: 80%;
-    height:500px;
+    height:498px;
     margin: 0 auto;
 }
 @media(max-width:767px){
-    .rel{
-        margin-top: -200px;
-    }
+
     .rel-po{
         width: 100%;
-        height: 320px;
+        height: 291px;
     }
+ 
 }
+
 /* 동영상 */
 .youtube {
 
     position: relative;
   
-    width: 100%;
-  
-    padding-bottom: 56.25%;
+    width: 100%; 
+
   
   }
+  
   
   .youtube iframe {
   
@@ -565,3 +564,62 @@ input[id*="pop"]:checked + label + div{
     left: 0;
   
   }
+
+
+  /* tab collapse */
+  #tab_1,#tab_2,#tab_3,#tab_4{
+     background: #ffffff;
+     width: 80%;
+     margin: 0 auto;
+     
+ }
+ @media(max-width:767px){
+    #tab_1,#tab_2,#tab_3,#tab_4{        
+        width: 100%; 
+    }
+  }
+  #tab_2,#tab_3,#tab_4{
+      display: none;
+  }
+.rel{
+    padding-top: 1px;
+}
+  .rel a{
+     background: #1b293a;
+     color: #fff;
+     width: 100%;
+     height: 50px;  
+     font-size: 14px;  
+     line-height: 30px;
+    
+ }
+ .rel a:hover{
+    background: #999; 
+    color:#1b293a;
+    font-weight: 600;
+    border: none;
+ }
+ .srol{
+    background: #fff;
+ }
+ @media(max-width:767px){
+.srol{
+    height: 80px;
+    overflow: auto;
+    
+}
+}
+.tbox-1{
+    
+    position: relative;
+
+}
+.rel{
+    width: 100%;
+    position: absolute;
+}
+@media(max-width:767px){
+    .rel{
+        top:29px;
+    } 
+}

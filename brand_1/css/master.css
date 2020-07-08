@@ -600,7 +600,10 @@ input[id*="pop"]:checked + label + div{
     border: none;
  }
  .srol{
+    height:100px;
+    overflow: auto;
     background: #fff;
+
  }
  @media(max-width:767px){
 .srol{
@@ -622,4 +625,7 @@ input[id*="pop"]:checked + label + div{
     .rel{
         top:29px;
     } 
+}
+#tbox-2,#tbox-3,#tbox-4{
+    display: none;
 }

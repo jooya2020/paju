@@ -4105,14 +4105,14 @@ fieldset[disabled] .btn-success:hover {
 
 .btn-info {
     color: #fff;
-    background-color: #000000;
+    background-color: #122b40;
     
 }
 
 .btn-info.focus,
 .btn-info:focus {
     color: #fff;
-    background-color: #000000;
+    background-color: #122b40;
     
 }
 
@@ -4126,7 +4126,7 @@ fieldset[disabled] .btn-success:hover {
 .btn-info:active,
 .open>.dropdown-toggle.btn-info {
     color: #fff;
-    background-color: #000000;
+    background-color: #122b40;
     background-image: none;
     
 }
@@ -4141,7 +4141,7 @@ fieldset[disabled] .btn-success:hover {
 .open>.dropdown-toggle.btn-info:focus,
 .open>.dropdown-toggle.btn-info:hover {
     color: #fff;
-    background-color: #000000;
+    background-color: #122b40;
     
 }
 
@@ -4154,12 +4154,12 @@ fieldset[disabled] .btn-success:hover {
 fieldset[disabled] .btn-info.focus,
 fieldset[disabled] .btn-info:focus,
 fieldset[disabled] .btn-info:hover {
-    background-color: #000000;
+    background-color: #122b40;
     
 }
 
 .btn-info .badge {
-    color: #000000;
+    color: #122b40;
     background-color: #fff
 }
 

@@ -29,6 +29,7 @@ a{
 body{
     font-family: 'Noto Sans KR', sans-serif;
     color: inherit;
+    
 }
 
 #fp-nav ul li a span, 
@@ -638,7 +639,7 @@ input[id*="pop"]:checked + label + div{
 
 /* section06 start */
 .section06{
-    /* padding-top: 50px; */
+    padding-top: 80px;
     padding-bottom: 200px;
 }
 /* tab */
@@ -658,7 +659,7 @@ input[id*="pop"]:checked + label + div{
     }
 }
 #home_1{
-   
+   position: relative;
     background: url("../img/tab2.webp");
     background-repeat: no-repeat;
     background-position: center;
@@ -673,7 +674,7 @@ input[id*="pop"]:checked + label + div{
 }
 #home_1,#menu_1{
     width: 100%;
-    height: 700px;
+    height: 600px;
     position: relative;
     
 }
@@ -743,7 +744,110 @@ input[id*="pop"]:checked + label + div{
     top:-7.7px;
     left: 12%;
     border-radius: 50px;
-     
-    
  }
 
+/* rear */
+.sp_5{
+    top:39%;
+    left: 36%;
+}
+.sp_6{
+    top:52%;
+    left: 35.5%;
+}
+.sp_7{
+    top:63%;
+    left: 50%;
+}
+.sp_8{
+    top:50%;
+    left: 63%;
+}
+/* modal */
+.pop_bg_1{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.459);
+    z-index: 10;    
+}
+.pop_wrap_1{
+   position: relative;
+    width: 100%;
+    height: 100%;    
+    z-index: 11;    
+}
+.pop_body_1{
+    position: absolute;
+    width: 38.3%;
+    height: 90%;
+    background: #ffffff;
+    z-index: 12;
+    top:5%;
+    left:3.5%;
+}
+.img_b_1{
+    
+    width: 100%;
+    height: 47.2%;
+    background: url("../img/modal_img_1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.x_1{
+    position: absolute;    
+    z-index: 13;
+    top:5%;
+    left: 41.8%;
+}
+.x_1 img{
+    width: 50%;
+
+}
+/* 텍스트 */
+.pop_body_1 h3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+.pop_body_1 p{
+width: 88%;
+margin:0 auto;
+text-align: left;
+}
+.pop_wrap_1{
+    display: none;
+}
+@media(max-width:767px){
+    .section06{
+        padding-top: 0;
+        padding-bottom: 380px;
+    }
+    .pop_body_1{
+        width: 100%;
+        height: 200%;
+        top:102%;
+        left: 0;
+       
+    } 
+    .img_b_1{
+        width: 100%;
+    }
+    .mtxt_1{
+        width: 100%;
+        height: 35%;  
+    }
+    .mtxt_1 p{
+        width: 90%;
+    }
+ .x_1{
+    display: none;
+ }   
+ .pop_bg_1{
+     height: 0px;
+     top: -100px;
+ }
+}

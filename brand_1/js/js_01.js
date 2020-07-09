@@ -174,3 +174,20 @@ $(document).ready(function(){
  $(document).ready(function(){
    $('[data-toggle="tooltip"]').tooltip({container: 'body'});   
    });
+// modal
+$(function(){
+   $(".sp_1").click(function(){
+      $(".pop_bg_1").fadeIn('slow','swing'); 
+      $(".pop_wrap_1").fadeIn('slow','swing'); 
+
+   });
+   $(".x_1").click(function(){
+      $(".pop_bg_1").fadeOut('slow','swing');  
+      $(".pop_wrap_1").fadeOut('slow','swing');  
+   });
+   $(".pop_bg_1").click(function(){
+      $(".pop_bg_1").fadeOut('slow','swing');  
+      $(".pop_wrap_1").fadeOut('slow','swing');  
+   });
+});
+

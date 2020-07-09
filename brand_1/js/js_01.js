@@ -170,3 +170,7 @@ $(document).ready(function(){
       $('#tbox-4').css("display","block").fadeIn();
    });
  });
+ // tooltip
+ $(document).ready(function(){
+   $('[data-toggle="tooltip"]').tooltip({container: 'body'});   
+   });

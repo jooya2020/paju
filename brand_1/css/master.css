@@ -535,7 +535,7 @@ input[id*="pop"]:checked + label + div{
 
 
 .rel-po{
-    width: 80%;
+    width: 100%;
     height:498px;
     margin: 0 auto;
 }
@@ -574,7 +574,7 @@ input[id*="pop"]:checked + label + div{
   /* tab collapse */
   #tab_1,#tab_2,#tab_3,#tab_4{
      background: #ffffff;
-     width: 80%;
+     width: 100%;
      margin: 0 auto;
      
  }
@@ -638,7 +638,7 @@ input[id*="pop"]:checked + label + div{
 
 /* section06 start */
 .section06{
-    padding-top: 100px;
+    /* padding-top: 50px; */
     padding-bottom: 200px;
 }
 /* tab */
@@ -647,7 +647,7 @@ input[id*="pop"]:checked + label + div{
     justify-content: center;
 }
 #h-bg-2>li{
-    width: 40%;
+    width: 50%;
     background: #001f452f;
     border-radius: 5px 5px; 
 
@@ -662,18 +662,18 @@ input[id*="pop"]:checked + label + div{
     background: url("../img/tab2.webp");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 #menu_1{
    
     background: url("../img/tab-1.webp");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 #home_1,#menu_1{
     width: 100%;
-    height: 502px;
+    height: 700px;
     position: relative;
     
 }
@@ -688,13 +688,31 @@ input[id*="pop"]:checked + label + div{
 /* tootip */
 .spot{    
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 21px;
+    height: 21px;
     border-radius: 50px;
-    background:radial-gradient( #fff,rgba(255, 255, 255, 0.507),rgba(255, 255, 255, 0) );;
+    background:radial-gradient( #fff,rgba(255, 255, 255, 0.205) );    
+    box-shadow: white 0 0 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    animation: Bling_1 1s ease infinite;  
+}
+@keyframes Bling_1{
+    0%{
+        box-shadow: white 0 0 5px;
+        
+    }
+    50%{
+        box-shadow: white 0 0 10px;
+       
+    }    
+    100%{
+        box-shadow: white 0 0 5px;
+        
+    }
+    
 }
 .sp_1{
     top: 38%;
@@ -717,12 +735,15 @@ input[id*="pop"]:checked + label + div{
 }
 .spot_j{
     position: absolute;
-    width: 10px;
-    height: 10px;
-    background: #001f45;
-    top: 50%;
-    left: 50%;
+    width: 15px;
+    height: 15px;
+    background: #67abff;
+    border: 1px solid #fff;
+    /* transform: translate(-50%,-50%);     */
+    top:-7.7px;
+    left: 12%;
     border-radius: 50px;
-    transform: translate(-50%,-50%);
-        box-shadow: 10px #fff;
-}
+     
+    
+ }
+

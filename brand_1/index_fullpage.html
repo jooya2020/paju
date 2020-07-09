@@ -252,12 +252,11 @@
                         <div class="container">
                             <div class="row">
                                 <h1 class="text-center f-s-20">SONATA FILM</h1>
-                             <div class="B_B_1">
-                                <div class="border_bottom_1"></div>
+                                <div class="B_B_1">
+                                    <div class="border_bottom_1"></div>
+                                </div>                                
                             </div>
-                                
-                            </div>
-
+                            <!-- tab -->
                             <div class="row">
                                 <ul class="nav nav-pills h-bg" id="h-bg-1">
                                     <li class="active"id="t-1">
@@ -274,6 +273,7 @@
                                     </li>
                                 </ul>                
                             </div>
+                            <!-- content -->
                             <div class="row ">
                                 <div class="tab-content rel-po">
                                     <div id="home" class="tab-pane fade in active youtube">                                      
@@ -348,11 +348,69 @@
                           
                                
                             </div>
-                        
+                        </div>
                     </section>
                 </div>
                 <!-- section05 end -->
+                <!-- section06 start -->
+                <div class="section">
+                    <section class="section06 container-fluid" id="pullpage06">
+                        <div class="container">
+                            <!-- title -->
+                            <div class="row">
+                                <h1 class="text-center f-s-20">Sensual and dynamic design</h1>
+                             <div class="B_B_1">
+                                <div class="border_bottom_1"></div>
+                            </div>
+                                
+                            </div>
+                            <!-- tab -->
+                            <div class="row">
+                                <ul class="nav nav-pills h-bg-2" id="h-bg-2">
+                                    <li class="active"id="t-1">
+                                        <a data-toggle="tab" href="#home_1"id="h-bg-a">Front</a>
+                                    </li>
+                                    <li id="t-2">
+                                        <a data-toggle="tab" href="#menu_1"id="h-bg-a">Rear</a>
+                                    </li>                                    
+                                </ul>                
+                            </div>
+                            <!-- content -->
+                            <div class="row ">
+                                <div class="tab-content rel-po">
+                                    <div id="home_1" class="tab-pane fade in active">
+                                        <a href="#none"><div class="spot sp_1">
+                                            <div class="wrap">
+                                                <div class="spot_j"></div>
+                                            </div>
+                                        </div></a>
+                                        <a href="#none"><div class="spot sp_2">
+                                            <div class="wrap">
+                                                <div class="spot_j"></div>
+                                            </div>
+                                        </div></a>
+                                        <a href="#none"><div class="spot sp_3">
+                                            <div class="wrap">
+                                                <div class="spot_j"></div>
+                                            </div>
+                                        </div></a>
+                                        <a href="#none"><div class="spot sp_4">
+                                            <div class="wrap">
+                                                <div class="spot_j"></div>
+                                            </div>
+                                        </div></a>
+                                    </div>
+                                    <div id="menu_1" class="tab-pane fade"></div>   
+                                </div>
+                            </div>
+                            <!-- ditail -->
+                            <div class="row">
 
+                            </div>
+                        
+                    </section>
+                </div>
+                <!-- section06 end -->
             </section>
            
             <!-- fullpage -->
@@ -360,9 +418,15 @@
                 $(document).ready(function () {
                     $('#fullpage').fullpage({
                         // sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
-                        autoScrolling: true
+                        autoScrolling: true,
+                        navigation: true,
+                anchors: ['page1', 'page2', 'page3'],
                     });
+                    
                 });
+
+
+                
             </script>
             <!-- script -->
             <script src="js/fullpage.min.js"></script>

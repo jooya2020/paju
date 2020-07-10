@@ -772,7 +772,7 @@ input[id*="pop"]:checked + label + div{
     background: rgba(0, 0, 0, 0.459);
     z-index: 10;    
 }
-.pop_wrap_1{
+.pop_wrap_1,.pop_wrap_2,.pop_wrap_3,.pop_wrap_4,.pop_wrap_5,.pop_wrap_6,.pop_wrap_7,.pop_wrap_8{
    position: relative;
     width: 100%;
     height: 100%;    
@@ -787,73 +787,123 @@ input[id*="pop"]:checked + label + div{
     top:5%;
     left:3.5%;
 }
-.img_b_1{
-    
+.mtxt_1,.stxt_1{
+    width: 90%;
+    margin: 0 auto;
+}
+
+    /* tab1_popup_img */
+.img_b_1{    
     width: 100%;
     height: 47.2%;
     background: url("../img/modal_img_1.webp");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    
+    background-size: cover;    
 }
-.x_1{
-    position: absolute;    
-    z-index: 13;
-    top:5%;
-    left: 41.8%;
-}
-.x_1 img{
-    width: 50%;
-
-}
-/* 텍스트 */
-.pop_body_1 h3{
-    padding-top: 30px;
-    padding-bottom: 20px;
-
-}
-.pop_body_1 p{
-width: 88%;
-margin:0 auto;
-text-align: left;
-}
-.pop_wrap_1{
-    display: none;
-}
-
-.pc_1{
-    display: block;
-}
-.mo_1{
-    display: none;
-}
-@media(max-width:767px){
-    .section06{
-        padding-top: 50px;
-        padding-bottom: 430px;
-    }
-
-.pc_1{
-    display: none;
-}
-.mo_1{
-    display: block;
-}
-}
-/* swiper */
-.swiper1 {
+.img_b_2{
     width: 100%;
-    height:450px;
-    background: #999!important;
-
+    height: 47.2%;
+    background: url("../img/modal_img_2.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+.img_b_3_1{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 47.2%;
+    background: url("../img/modal_img_3_1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+.img_b_3_2{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 47.2%;
+    background: url("../img/modal_img_3_2.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+.img_b_3_3{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 47.2%;
+    background: url("../img/modal_img_3_3.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+.img_b_4{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 47.2%;
+    background: url("../img/modal_img_4.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+    /* tab2_popup_img */
+.img_b_5{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 47.2%;
+    background: url("../img/modal_img_5.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}  
+.img_b_6{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 47.2%;
+    background: url("../img/modal_img_6.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+.img_b_7{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 47.2%;
+    background: url("../img/modal_img_7.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+.img_b_8{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 47.2%;
+    background: url("../img/modal_img_8.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+} 
+/* popup-3 */
+/* swiper */
+.swiper_p1 {
+    position: relative;
+    width: 100%;
+    height:530px;
   }
+
   .next1,.prev1{
     position:absolute;
     top:25%;
     
   }
-  .ig_c{
+  .ig_c_1{
     position: absolute;
     top:0;
     width: 100%!important;
@@ -864,22 +914,30 @@ text-align: left;
     background-position:center ;
   }
   .stxt_1{
+      width: 100%;
     position: absolute;
-    top: 60%;
+    
   }
   .stxt_1 h3{
+      width: 90%;
+    text-align: center;    
     padding-bottom: 20px;
+    margin:0 auto;
   }
   .stxt_1 p{
       padding:0 20px;
       text-align: left;
   }
+.po_1{
+    height: 50%;
+    position: absolute;
+    top:0;
+}
   .swiper-slide {
-      position: relative;
+    position: relative;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     background: #fff;
-
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -894,6 +952,131 @@ text-align: left;
     -webkit-align-items: center;
     align-items: center;
   }
+  /* swiper content 1 */
+
+
+  #p_s_srol{
+    width: 100%;
+    height:135px;
+    overflow: auto;
+    
+}
+#p_s_srol p{
+    width: 91% ;    
+    margin-left: 20px;
+    margin-right: 0px;
+    padding: 0;
+    
+    
+}
+/* close btn */
+.x_1{
+    position: absolute;    
+    z-index: 13;
+    top:5%;
+    left: 41.8%;
+}
+.x_1 img{
+    width: 50%;
+
+}
+/* text */
+.pop_body_1 h3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+.pop_body_1 p{
+width: 88%;
+margin:0 auto;
+text-align: left;
+}
+/* text scrol */
+
+.pop_wrap_1,.pop_wrap_2,.pop_wrap_3,.pop_wrap_4,.pop_wrap_5,.pop_wrap_6,.pop_wrap_7,.pop_wrap_8{
+    display: none;
+}
+.p_srol{
+    width: 100%;
+    height:140px;
+    overflow: auto;
+    margin: 0 auto;
+}
+.p_srol p{
+    width: 95%;
+    margin-left: 18px!important;
+    
+}
+.p_srol1{
+    width: 100%;
+    height:110px;
+    overflow: auto!important;
+    margin: 0 auto;
+}
+.p_srol1 p{
+    width: 95%;
+    margin-left: 18px!important;
+    padding: 0!important;
+}
+#p_srol2 p{
+    width: 95%;
+    margin-left: 18px!important;
+    margin-right: 18px!important;
+    padding-left: 0;
+    
+}
+.pc_1{
+    display: block;
+}
+.mo_1{
+    display: none;
+}
+@media(max-width:767px){
+    .section06{
+        padding-top: 100px;
+        padding-bottom: 380px;
+    }
+
+    .pc_1{
+        display: none;
+    }
+    .mo_1{
+        display: block;
+    }
+}
+/* swiper */
+.swiper1,.swiper2 {
+    width: 100%;
+    height:500px;
+    background: #999!important;
+
+  }
+  
+
+  .stxt_1{
+    position: absolute;
+    top: 48%;
+  }
+
+.stxt_2{
+    position: absolute;
+    top: 56%;
+    }
+  .stxt_1 h3{
+    padding-bottom: 20px;
+  }
+  .stxt_1 p{
+      padding:0 20px;
+      text-align: left;
+  }
+  .stxt_2 h3{
+    padding-bottom: 20px;
+  }
+  .stxt_2 p{
+      padding:0 20px;
+      text-align: left;
+  }
+  
 
   .home_2{
       position: relative;

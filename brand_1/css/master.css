@@ -639,8 +639,8 @@ input[id*="pop"]:checked + label + div{
 
 /* section06 start */
 .section06{
-    padding-top: 50px;
-    padding-bottom: 200px;
+    padding-top: 50px!important;
+    padding-bottom: 100px!important;
 }
 /* tab */
 #h-bg-2{    
@@ -764,7 +764,7 @@ input[id*="pop"]:checked + label + div{
     left: 63%;
 }
 /* modal */
-.pop_bg_1{
+.pop_bg_1,.pop_bg_2,.pop_bg_3{
     display: none;
     position: absolute;
     width: 100%;
@@ -772,7 +772,7 @@ input[id*="pop"]:checked + label + div{
     background: rgba(0, 0, 0, 0.459);
     z-index: 10;    
 }
-.pop_wrap_1,.pop_wrap_2,.pop_wrap_3,.pop_wrap_4,.pop_wrap_5,.pop_wrap_6,.pop_wrap_7,.pop_wrap_8{
+.pop_wrap_1,.pop_wrap_2,.pop_wrap_3,.pop_wrap_4,.pop_wrap_5,.pop_wrap_6,.pop_wrap_7,.pop_wrap_8,.pop_wrap_9,.pop_wrap_10,.pop_wrap_11,.pop_wrap_12{
    position: relative;
     width: 100%;
     height: 100%;    
@@ -890,6 +890,46 @@ input[id*="pop"]:checked + label + div{
     background-position: center;
     background-size: cover;    
 } 
+.img_b_9{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 47.2%;
+    background: url("../img/space1_1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+} 
+.img_b_10{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 47.2%;
+    background: url("../img/space1_2.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+} 
+.img_b_11{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 47.2%;
+    background: url("../img/space1_3.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+} 
+.img_b_12{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 47.2%;
+    background: url("../img/space1_4.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+} 
 /* popup-3 */
 /* swiper */
 .swiper_p1 {
@@ -897,7 +937,12 @@ input[id*="pop"]:checked + label + div{
     width: 100%;
     height:530px;
   }
-
+  .space_sl_1 {
+    position: relative;
+    width: 100%;
+    height:450px;
+    margin-top: 50px;
+  }
   .next1,.prev1{
     position:absolute;
     top:25%;
@@ -929,6 +974,11 @@ input[id*="pop"]:checked + label + div{
       text-align: left;
   }
 .po_1{
+    height: 55%;
+    position: absolute;
+    top:0;
+}
+.po_2{
     height: 50%;
     position: absolute;
     top:0;
@@ -993,7 +1043,7 @@ text-align: left;
 }
 /* text scrol */
 
-.pop_wrap_1,.pop_wrap_2,.pop_wrap_3,.pop_wrap_4,.pop_wrap_5,.pop_wrap_6,.pop_wrap_7,.pop_wrap_8{
+.pop_wrap_1,.pop_wrap_2,.pop_wrap_3,.pop_wrap_4,.pop_wrap_5,.pop_wrap_6,.pop_wrap_7,.pop_wrap_8,.pop_wrap_9,.pop_wrap_10,.pop_wrap_11,.pop_wrap_12{
     display: none;
 }
 .p_srol{
@@ -1013,6 +1063,12 @@ text-align: left;
     overflow: auto!important;
     margin: 0 auto;
 }
+.p_srol4{
+    width: 90%;
+    height:70px;
+    overflow: auto!important;
+    margin: 0 auto;
+}
 .p_srol1 p{
     width: 95%;
     margin-left: 18px!important;
@@ -1024,6 +1080,26 @@ text-align: left;
     margin-right: 18px!important;
     padding-left: 0;
     
+}
+.p_srol4 p{
+    width: 100%;
+    margin-right: 0px!important;
+    
+    padding: 0 10px 0 0!important;
+    
+}
+.p_srol3{
+    width: 88%;
+    height:80px;
+    overflow: auto!important;
+    margin: 0 auto;
+}
+#p_srol3 p{
+    width: 95%;
+    margin-left: 18px!important;
+    margin-right: 10px!important;
+    padding-left: 0;
+    padding-right: 0;
 }
 .pc_1{
     display: block;
@@ -1058,9 +1134,19 @@ text-align: left;
     top: 48%;
   }
 
-.stxt_2{
+.stxt_2{    
     position: absolute;
     top: 56%;
+    }
+.stxt_3{
+    width: 95%;
+    position: absolute;
+    top: 56%;
+    }
+.stxt_4{
+    width: 95%;
+    position: absolute;
+    top: 58%;
     }
   .stxt_1 h3{
     padding-bottom: 20px;
@@ -1076,9 +1162,156 @@ text-align: left;
       padding:0 20px;
       text-align: left;
   }
+  .stxt_3 h3{
+    padding-bottom: 20px;
+  }
+  .stxt_3 p{
+      padding:0 20px;
+      text-align: left;
+  }
+  .stxt_4 h3{
+    padding-bottom: 20px;
+  }
+  .stxt_4 p{
+      padding:0 20px;
+      text-align: left;
+  }
   
 
   .home_2{
       position: relative;
       width: 100%;
   }
+  /* section07 */
+  .section07{
+      padding-top: 60px;
+      padding-bottom: 70px;
+      background: #d7e1ee;
+  }
+  .space_img{
+      position: relative;
+      width: 97%;
+      height: 500px;
+      background: url("../img/space1.jpg");
+      background-repeat: no-repeat;
+      background-position: 0 85%;
+      background-size: cover; 
+      margin: 0 auto;
+      margin-top: 50px;
+  }
+  .sp_cont{
+      width: 99.5%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      margin-top:10px;
+      margin-left: 3px;
+      
+  
+  }
+  .sp_cont div{
+      width: 33.33%;
+      overflow: hidden;
+      position: relative;
+  }
+  .sp_cont div img{
+      width: 98%;      
+  }
+.sp_cont_1,.sp_cont_2,.sp_cont_3{
+    position: relative;
+}
+.sp_cont_1 div,.sp_cont_2 div,.sp_cont_3 div{
+    width: 98%;
+    background: #1b293ab6;
+    position: absolute;
+    bottom:-60px;
+    transition: all 0.7s;
+}
+.sp_cont_1:hover div,.sp_cont_2:hover div,.sp_cont_3:hover div{
+    bottom:0px;
+}
+
+.sp_cont_1 div h3,.sp_cont_2 div h3,.sp_cont_3 div h3{
+    color: #fff;
+    font-weight: 400;
+    line-height: 60px;
+}
+.sp_cont_2{
+display: flex;
+justify-content: center;
+}
+.sp_cont_3{
+display: flex;
+justify-content: flex-end;
+}
+/* tooltip */
+
+.sp_9{
+    top:78%;
+    left:22%;
+}
+.sp_10{
+    top:88%;
+    left: 30%;
+}
+.sp_11{
+    top:20%;
+    left: 75%;
+}
+.sp_12{
+    top:27%;
+    left: 95%;
+}
+/* 모바일 슬라이드  2줄 이미지*/
+@media(max-width:767px){
+    .sp_cont1{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .sp_cont1_w{
+        width: 100%;
+        display: flex;       
+    }
+    .sp_cont_1{
+        width: 50%;
+        overflow: hidden;
+    }
+    .sp_cont_1_2{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .sp_cont_1 >img{
+        width:98.5% ;
+    }
+    .sp_cont_1 >div{
+        width: 98.5%;
+    }
+    .sp_cont1 h3{
+        font-size: 12pt;
+    }
+    .sp_cont_1_4 img{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+/* <div class="row">
+<div class="sp_cont_1">
+    <img src="img/space2.webp" alt="내부 이미지1" class="img-responsive">
+
+    <div>
+        <h3>그레이 내장</h3>
+    </div>
+</div>
+<div class="sp_cont_2">
+    <img src="img/space3.webp" alt="내부 이미지1" class="img-responsive">
+    <div>
+        <h3>뒷면 전동식 커튼</h3>
+    </div>
+</div>
+</div>
+<div class="sp_cont_3">
+    <img src="img/space4.webp" alt="내부 이미지1" class="img-responsive">
+    <div>
+        <h3>뒷좌석 수동식 도어 커튼</h3>
+    </div>
+</div> */

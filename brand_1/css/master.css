@@ -1295,24 +1295,47 @@ justify-content: flex-end;
         margin: 0 auto;
     }
 }
-/* <div class="row">
-<div class="sp_cont_1">
-    <img src="img/space2.webp" alt="내부 이미지1" class="img-responsive">
 
-    <div>
-        <h3>그레이 내장</h3>
-    </div>
-</div>
-<div class="sp_cont_2">
-    <img src="img/space3.webp" alt="내부 이미지1" class="img-responsive">
-    <div>
-        <h3>뒷면 전동식 커튼</h3>
-    </div>
-</div>
-</div>
-<div class="sp_cont_3">
-    <img src="img/space4.webp" alt="내부 이미지1" class="img-responsive">
-    <div>
-        <h3>뒷좌석 수동식 도어 커튼</h3>
-    </div>
-</div> */
+
+/* footer start */
+.footer_bg{
+    padding-top:50px;
+    padding-bottom:50px;
+    background: #000;
+    color: #ccc;
+    text-align: left;     
+}
+.foot_fx{
+    display: flex;
+}
+@media(max-width:767px){
+    .foot_fx{
+        flex-direction: column;
+        align-items: center;
+        padding: 0!important;
+    }
+    .foot_logo,.foot_center,.foot_right{
+        width: 100%;
+        padding: 0;
+       
+    }
+}
+.foot_logo{
+    width: 10%;
+   
+}
+.foot_center{
+    width: 60%;
+    padding-left: 20px;  
+}
+.foot_right{
+    width: 30%;
+    padding-left: 20px;
+}
+.sns{    
+    margin-bottom: 10px;
+}
+.sns img{
+    width: 30px;
+    padding-right:5px;
+}

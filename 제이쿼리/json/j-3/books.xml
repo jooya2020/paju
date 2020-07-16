@@ -1,0 +1,19 @@
+<? xml version="1.0" encoding="utf-8"?>
+<books>
+    <book>
+        <title>채식주의자</title>
+        <author>한강</author>
+        <price>12000</price>
+    </book>
+    <book>
+        <title>종의 기원</title>
+        <author>정유정</author>
+        <price>10000</price>
+    </book>
+    <book>
+        <title>다르게 보는힘</title>
+        <author>이종인</author>
+        <price>12600</price>
+    </book>    
+</books>
+<!-- 태그는 내마음대로 작성해도 되지만 꼭 열고 닫아 줘야 함 단점 이라 json이 나오고 안씀-->

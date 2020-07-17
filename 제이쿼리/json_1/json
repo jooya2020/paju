@@ -1,0 +1,48 @@
+객체를 지정
+json파일 날씨// 도시 위도 경도  데이터
+
+---------------------
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../j-2/js/jquery-3.2.1.js"></script>
+</head>
+<body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <!-- <script>
+             $(function(){
+                $.ajax({
+                    url: 'book.xml',
+                    dataType: 'xml',
+                    success: function(data){
+                    $(data).find('book').each(function(){
+                        var title = $('title', this).text();
+                        var author = $('author', this).text();
+                        var price = $('price', this).text();
+                        var txt = "<li>" + title + ", " + author + ", "+ price + "</li><hr>";
+                        $('body').append(txt);
+                    });
+                    }
+                });   
+            });   
+    </script> -->
+    <script>
+        $(function(){
+            $.getJSON('book.json',function(data){
+                var books=data.book;
+                $(books).each(function(i,obj){
+                    var title = obj.title;
+                    var author = obj.author;
+                    var price = obj.price;
+                    var txt = "<li>" +title+","+author+","+price+"</li><hr>";
+                    $('body').append(txt);
+                })
+            })
+        })
+    </script>
+</body>
+</html>
+<!-- 캐시삭제를 해야함 F5해서 변경되지 않음 5분뒤 -->

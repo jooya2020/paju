@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.2.1.js"></script>
+</head>
+<body>
+    <button type="button" onclick="loadDoc()">Reqyest data</button>
+    <p id="demo"></p>
+    <script>
+        function loadDoc(){
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function(){
+                if(this.readyState == 4 && this.status ==200){
+                    document.getElementById("demo").innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("GET","abc.txt",true);
+            // xhttp.open("POST","abc.txt",true);
+            //get 캐시남음 히스토리가 쌓임 선호하는편 더빨리 열림 naver도 get방식
+            //post 화면만 갖고 옴
+            xhttp.send();
+        }
+    </script>
+</body>
+</html>

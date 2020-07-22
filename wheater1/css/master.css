@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    font-weight: normal;
+}
+p{
+    margin-bottom: 2px;
+}
+body{
+    color: rgb(151, 120, 202);
+    font-size: 100%;
+    font-family: sans-serif;
+    background: rgb(245, 245, 245);
+    text-shadow: 1px 1px 1px #999;
+}
+.main_info > div{
+    margin: 0 auto;
+}
+.border{
+    width: 50px;
+    height: 5px;
+    background: rgb(151, 120, 202) ;
+    margin: 0 auto;
+}
+/* slide */
+.sub_info{
+    padding-top: 50px;
+}
+.sub_info div{
+    cursor: pointer;
+}
+
+.swiper-container{
+    width: 80%;
+    height: auto;
+    
+}
+/* padding */
+
+.padding_t3{
+    padding-top: 3px;
+}
+.padding_t50{
+    padding-top: 50px;
+}
+.padding_t100{
+    padding-top: 100px;
+}
+.padding_b5{
+    padding-bottom: 15px;
+}
+.padding_b30{
+    padding-bottom: 30px;
+}
+/* margin */
+.margin_b50{
+    margin-bottom: 50px;
+}
+
+
+/* text size */
+
+#weather_info .city{
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+#weather_info .today{
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+/* icon size */
+.icon{
+    font-size: 8em; 
+    text-shadow: 4px 4px 4px #999;   
+}
+
+.temp{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.font_s1_2em{
+    font-size: 1.2em;
+}
+.font_s2em{
+    font-size: 2em;
+}
+/* opacity */
+.opacity_60{
+    opacity: 0.6;
+}

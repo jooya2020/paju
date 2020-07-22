@@ -1,0 +1,35 @@
+    <div id="weather_info">
+
+            <h1 class="city"></h1>
+            <h2 class="today"></h2>
+            <i class="icon"></i>
+            <p class="temp"></p>
+            <div class="bar"></div>
+            <div class="container">
+                <div class="cont cont1">
+                    <i class="wi wi-sunrise font-s"></i>
+                    <p>SUNRISE</p>
+                    <div class="sunrise"></div>
+
+                </div>
+                <div class="cont cont2">
+                    <i class="wi wi-strong-wind" id="wi-strong-wind"></i>
+                    <p>WIND</p>
+                    <div class="wind"></div>
+                </div>
+                <div class="cont cont3">
+                    <i class="wi wi-thermometer-exterior"></i>
+                    <p>MIN-THEM</p>
+                    <div class="min-theme"></div>
+                </div>
+            </div>
+
+            <img class="load_img" src="sehun3.png" width="50">
+        </div>
+
+
+
+
+         <div class="col-sm-2 col-sm-offset-3"></div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2"></div>

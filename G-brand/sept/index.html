@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="ko">
 	<head>
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
+		
+		<meta name="msapplication-TileImage" content="/path/to/favicon-144.png">
+
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,6 +19,7 @@
 		<link href="css/owl.carousel.css" rel="stylesheet">
 		<link href="css/owl.theme.css" rel="stylesheet">
 		<link href="css/owl.transitions.css" rel="stylesheet">
+		<link href="css/swiper.css" rel="stylesheet">
 
 		<link href="css/style.css" rel="stylesheet">
 
@@ -40,17 +45,16 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#"><img src="photos/logo3.png" alt="" class="img-responsive"></a>
+						<a class="navbar-brand" href="#"><img src="images/navi_logo.png" alt="logo" class="img-responsive"></a>
 					</div>
 					
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse main-nav" id="sept-main-nav">
 						<ul class="nav navbar-nav navbar-right">
 							<li class="active"><a href="#home">Home</a></li>
-							<li><a href="#about">About</a></li>
+							<li><a href="#about">About us</a></li>
 							<li><a href="#service">Service</a></li>
-							<li><a href="#portfolio">Portfolio</a></li>
-							<li><a href="#pricing">Pricing</a></li>
+							<li><a href="#portfolio">Product</a></li>							
 							<li><a href="#blog">Blog</a></li>
 							<li><a href="#contact">Contact Us</a></li>
 						</ul>
@@ -60,6 +64,13 @@
 		</header>
 		
 		<section class="home" id="home" data-stellar-background-ratio="0.4">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">Slide 1</div>
+					<div class="swiper-slide">Slide 2</div>
+					<div class="swiper-slide">Slide 3</div>
+				</div>
+			</div>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -923,6 +934,7 @@
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="js/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/swiper.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/jquery.stellar.js"></script>
@@ -934,5 +946,6 @@
 		<script src="js/owl.carousel.js"></script>
 		<script src="js/jquery.ajaxchimp.min.js"></script>
 		<script src="js/script.js"></script>
+
 	</body>
 </html>

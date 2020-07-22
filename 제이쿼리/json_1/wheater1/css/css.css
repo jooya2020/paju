@@ -117,8 +117,17 @@ aside>p{
     padding-top: 10px;
     border-bottom:2px solid #777;
 }
-
 .wi-sunrise{
     font-size:2em;
+    padding-top: 5px;
     padding-bottom: 10px;
+}
+#wi-strong-wind{
+    font-size: 2em;
+    padding-bottom: 14px;
+}
+.wi-thermometer-exterior{
+    font-size:1.8em;
+    padding-top: 6px;
+    padding-bottom: 11px;
 }

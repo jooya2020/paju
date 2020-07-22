@@ -17,13 +17,21 @@
         <div class="bar"></div>
         <div class="container">
             <div class="cont cont1">
-                <i class="wi wi-sunrise"></i>
+                <i class="wi wi-sunrise font-s"></i>
                 <p>SUNRISE</p>
                 <div class="sunrise"></div>
 
             </div>
-            <div class="cont cont2"></div>
-            <div class="cont cont3"></div>
+            <div class="cont cont2">
+                <i class="wi wi-strong-wind" id="wi-strong-wind"></i>
+                <p>WIND</p>
+                <div class="wind"></div>
+            </div>
+            <div class="cont cont3">
+                <i class="wi wi-thermometer-exterior"></i>
+                <p>MIN-THEM</p>
+                <div class="min-theme"></div>
+            </div>
         </div>
 
         <!-- <section>
@@ -48,8 +56,12 @@ $.getJSON(url, function(data) {
     var sunrise = sys.sunrise;
     var sun_up = new Date(sunrise*1000);
     var cal=sun_up.toLocaleTimeString();
+    var cal_sunrise = "AM" + cal.substr(2,5);
       //일출          
-    var wind = data.wind;               //바람
+    var wind = data.wind;  
+    var wind_1 = wind.speed;
+    var cal_wind = Math.floor(wind_1)+"m/s";
+    // var windColl=;             //바람
     var city = data.name;               // 도시명
     var weather = data.weather;         // 날씨 객체
     var main = data.main;               // 온도 기압 관련 객체
@@ -80,17 +92,18 @@ $.getJSON(url, function(data) {
     $('#weather_info>.city').html(city);
     // $('#weather_info .icon').html("<img src='" + icon_url + ".png'>");
     $('#weather_info .w_id').html(wmain);
-    $('#weather_info .temp_min').html(parseInt(temp_min-273.15)+'&deg' + 'min');
+    $('#weather_info .min-theme').html(parseInt(temp_min-273.15)+'&deg' );
     $('#weather_info .temp_max').html(parseInt(temp_max-273.15)+'&deg' + 'max');
     $('#weather_info .temp').html(parseInt(temp-273.15)+'&deg;'+'C');
     $('#weather_info .load_img').hide();
     $('#weather_info .today').html(allDay);
-    $('#weather_info .sunrise').html(cal);
+    $('#weather_info .sunrise').html(cal_sunrise);
+    $('#weather_info .wind').html(cal_wind);
     
   
 })
 .fail(function(){
-    alert("loading error");    
+    alert("loading error");
 });
 
 

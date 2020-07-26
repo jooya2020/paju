@@ -17,7 +17,7 @@
   font-style: normal;
 }
 :root {
-  --swiper-theme-color: #fff;
+  --swiper-theme-color: rgb(151, 120, 202);
 }
 .swiper-container {
   margin-left: auto;
@@ -269,7 +269,7 @@ button.swiper-pagination-bullet {
 }
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #fff;
+  background: rgb(151, 120, 202);
 }
 .swiper-container-vertical > .swiper-pagination-bullets {
   right: 10px;

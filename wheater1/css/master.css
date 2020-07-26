@@ -18,7 +18,7 @@ body{
     background: linear-gradient(-45deg,#23d5ab,#23a6d5,#9438df,#e95b88,#9438df,#23a6d5,#23d5ab);
     background-size: 3000% 500%;
     animation: wheather 40s infinite;
-    text-shadow: 1px 1px 1px #999;
+    /* text-shadow: 1px 1px 1px #999; */
 }
 /* bg animate */
 @keyframes wheather{
@@ -110,4 +110,10 @@ body{
     opacity: 0.6;
     font-size: 0.8rem;
 }
-
+.svg{
+    width: 20rem;
+   
+}
+.svg path {
+    fill: #fff;   
+}

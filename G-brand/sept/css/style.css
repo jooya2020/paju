@@ -10,7 +10,7 @@
  */
 body {
   font-family: "Open Sans";
-  color: #808080;
+  color: #8f8f8f;
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
@@ -451,7 +451,8 @@ h6 {
   }
 }
 .home {
-  background-image: url(../images/Homg_bg.png);
+  height: 100vh;
+  background-image: url(../images/Home_bg.png) ;
   background-position: top center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -462,6 +463,7 @@ h6 {
   /* Temp CSS */
   /* Temp CSS End */
 }
+
 .home .st-brand {
   text-align: center;
   margin-bottom: 50px;
@@ -522,6 +524,20 @@ h6 {
 .st-highlight {
   color: #4ecdc4;
 }
+.navbar-header{
+  position: relative;
+}
+.navbar-toggle{
+  position:absolute;
+  right: 0;
+  top: 50%;
+  margin:0;
+  transform: translate(-50%,-50%);
+  border: none;
+  
+}
+
+
 .navbar-default {
   background-color: transparent;
   border-width: 0;
@@ -557,6 +573,12 @@ h6 {
   -webkit-transition: height 0.3s;
           transition: height 0.3s;
 }
+@media (max-width:767px){
+  #sept-main-nav {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
 .navbar-nav > li > a {
   font-family: "Oswald";
   font-size: 15px;
@@ -892,9 +914,7 @@ h6 {
   background-color: #4ecdc4;
   margin: 0 auto;
 }
-.service {
-  padding: 100px 0;
-}
+
 .st-feature {
   text-align: center;
 }

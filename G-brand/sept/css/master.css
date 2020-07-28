@@ -9,25 +9,27 @@
   }
 /* Product */
 #Product{
-    background: #c3b8b5;
+    background: #fff;
 }
 .banner{
     height: 500px;
+    padding:0;
 }
 
 .ban_color_1{
-    background:#fff;
+    background:#c3b8b525;
 }
 
 .banner_cont{
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 @media (min-width:768px){#banner_cont{width:100%;padding:0;margin:0}}
-@media (min-width:992px){#banner_cont{width:970px;margin:0 auto;padding: 1px 0;}}
+@media (min-width:992px){#banner_cont{width:970px;margin:0 auto;}}
 @media (min-width:1200px){#banner_cont{width:1170px;
-    margin:0 auto;padding: 1px 0;}}
+    margin:0 auto;}}
 
 .ban_cont_2{
     background: url("../images/coffee_set.jpg");
@@ -87,7 +89,7 @@
 .t_box_1 p{
     color:#555;
 }
-.t_box_1 button{
+.butt{
     padding:6px 20px;
     border: none;
     border-radius: 2px;
@@ -97,6 +99,134 @@
 /* product end */
 .banner_slim{
     height: 250px;
-    background: #ccc;
+    /* background: #ccc; */
+    display:flex;
+}
+@media(max-width:767px){
+    .flex_r{
+       
+        flex-direction: row-reverse;
+    }
+}
+.b_cont{
+    width:50%;
+    height:100%;
+}
+.b_txt{
+    position: relative;
+}
+.b_img {
+display: flex;
+justify-content: center;
+}
+.b_img img{
+align-self: center;
 }
 /* service end */
+
+/* about_info start */
+.about_info{
+    background: #fff;
+}
+.t_box_1 h4{
+    font-size:2.2rem;
+    padding-bottom:10px;
+}
+.txt_card_1{
+    position: relative;;
+    width:100%;    
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+}
+.info_bgc_1{
+    background: rgba(59, 46, 47, 0.7);
+}
+.info_bgc_2{
+    background: rgba(116, 32, 24, 0.7);
+}
+#about_info h3, #about_info p{
+    color: #fff;
+}
+
+.a_info_1{
+    background: url("../images/brand_story.jpg");
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.a_info_2{
+    background: url("../images/oline_tour.jpg");
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.but_bg{
+    background:#4b3731!important;
+}
+.border_wrap{
+    position: relative;
+}
+.border{
+    position:absolute;
+    width: 1.5px;
+    height:180px;
+    left: 50%;
+    top: 50%;
+    transform: translatey(-50%);
+    background: #c3b8b5;
+    z-index: 30;
+}
+@media (max-width:767px){
+    .border{
+        display:none;
+    }
+}
+/*  Product_list start*/
+.Product_list{
+    padding:0;
+    margin:0;
+}
+.p_list_bg{
+    
+    /* background: #000; */
+    
+}
+@media (min-width:768px){.p_list_bg{width:100%;padding:0;margin:0}}
+@media (min-width:992px){.p_list_bg{width:1000px;margin:0 auto;}}
+@media (min-width:1200px){.p_list_bg{width:1200px;
+    margin:0 auto;}}
+
+.flex_wrap{
+    display:flex;
+    flex-flow:wrap;
+    justify-content: center;
+}
+.box{
+width:400px;
+height: 500px;
+}
+
+.box1{
+    background: #999;
+}
+.box1{
+    background: #888;
+}
+.box2{
+    background: #777;
+}
+.box3{
+    background: #666;
+}
+.box4{
+    background: #555;
+}
+.box5{
+    background: #444;
+}
+.box6{
+    background: #333;
+}

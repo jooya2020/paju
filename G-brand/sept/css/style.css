@@ -9,7 +9,7 @@
  * This theme under "Attribution-NonCommercial CC BY-NC". You can't remove footer credit link.
  */
 body {
-  font-family: "Open Sans";
+  font-family: 'Yantramanav', sans-serif;
   color: #8f8f8f;
   font-weight: 400;
   font-size: 14px;
@@ -38,7 +38,7 @@ h6 {
   font-family: "Oswald";
   color: #4c4c4c;
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 700;
 }
 .form-control {
   border-radius: 2px !important;
@@ -490,7 +490,7 @@ h6 {
 }
 .home .hero-txt .hero-work {
   font-family: "Oswald";
-  font-weight: 300;
+  font-weight: bolder;
   letter-spacing: 2px;
   margin-bottom: 0;
 }
@@ -1160,11 +1160,12 @@ ul.styled-list.list-star li:before {
 }
 .testimonials {
   padding: 100px 0;
-  background-image: url(../images/testimonials.png);
+  background: url("../images/Home_bg.png");
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
   background-color: #000;
-  color: #fff;
+  color: #fff; 
 }
 .testimonial .testimonial-img {
   float: left;
@@ -1183,12 +1184,13 @@ ul.styled-list.list-star li:before {
   left: 5%;
 }
 .testimonial .testimonial-img:before {
-  font-family: "Oswald";
-  content: '\201C';
+  font-family: 'Alef';
+  content: '"';
   font-size: 40px;
   position: absolute;
   bottom: 1%;
-  left: 12%;
+  top:88%;
+  left: 7%;
   z-index: 99;
 }
 .testimonial .testimonial-img img {
@@ -1610,9 +1612,9 @@ textarea.formFieldError {
   border-color: #e34444 !important;
 }
 footer.site-footer {
-  background-color: #fcfcfc;
-  padding: 10px 0;
-  color: #9f9f9f;
+  background-color: rgb(24, 16, 16);
+  padding: 100px 0;
+  color: #fcfcfc;
   font-size: 13px;
   text-align: center;
 }

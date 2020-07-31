@@ -124,3 +124,12 @@ body{
     }
 
 }
+
+@media(max-width:375px){
+    .climacon>img{
+        width:80%;
+    }
+    .padding_t100{
+        padding-top: 5%;
+    }
+}

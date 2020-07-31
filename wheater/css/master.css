@@ -64,7 +64,7 @@ body{
     padding-top: 50px;
 }
 .padding_t100{
-    padding-top: 100px;
+    padding-top: 40%;
 }
 .padding_b5{
     padding-bottom: 15px;
@@ -109,4 +109,18 @@ body{
 .opacity_60{
     opacity: 0.6;
     font-size: 0.8rem;
+}
+
+/* img */
+.climacon>img{
+    width:60%;
+}
+@media(max-width:767px){
+    .climacon>img{
+        width:100%;
+    }
+    .padding_t100{
+        padding-top: 10%;
+    }
+
 }

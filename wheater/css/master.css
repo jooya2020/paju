@@ -32,7 +32,18 @@ body{
 }
 .container-fluid{
     overflow: hidden;
+   
 }
+/* .container{
+    height: 100vh;
+    position: relative;
+}
+.wrab{
+      position: absolute; 
+      top:50%;
+      left: 50%;
+      transform: translate( -50% ,-50%);
+} */
 .main_info > div{
     margin: 0 auto;
 }
@@ -64,7 +75,7 @@ body{
     padding-top: 50px;
 }
 .padding_t100{
-    padding-top: 40%;
+    padding-top:50px;
 }
 .padding_b5{
     padding-bottom: 15px;
@@ -124,7 +135,14 @@ body{
     }
 
 }
-
+@media(max-width:600px){
+    .climacon>img{
+        width:60%;
+    }
+    .padding_t100{
+        padding-top: 5%;
+    }
+}
 @media(max-width:375px){
     .climacon>img{
         width:70%;
@@ -133,3 +151,5 @@ body{
         padding-top: 5%;
     }
 }
+
+

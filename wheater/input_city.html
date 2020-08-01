@@ -15,7 +15,9 @@
     <body>
     <div class="container-fluid">
         <div class="container" id="weather_info">
-            <div class="wrab">
+
+            <input id="city" type="text" value="city name">
+            <button class="btn-danger" id="submit"><img src="svg/search2.svg" alt="search"></button>
             <div class="row main_info ">
                 <div class="col-sm-6 text-center">
                     <h1 class="city padding_t100"></h1>
@@ -66,11 +68,28 @@
                 </div>
             </div>
         </div>
-        </div>
     </div>
 
     <script>
-        var url="https://api.openweathermap.org/data/2.5/weather?lat=37.5666102&lon=126.9783881&appid=5b025c8ff79f6784133c1fb245c163c4"
+        var url="https://api.openweathermap.org/data/2.5/weather?lat=37.5666102&lon=126.9783881&appid=5b025c8ff79f6784133c1fb245c163c4";
+       
+        var api_cearch = 'https://api.openweathermap.org/data/2.5/weather?q=';
+        var city_search = 'London';
+        var apiKey_serch = '&appid=5b025c8ff79f6784133c1fb245c163c4';
+        var units = '&units=metric';
+        var input;
+       
+        function setup(){
+            var button = select('#submit');
+            button.mousePressed(weatherAsk);
+
+            input=select('#city')
+        }
+        
+        function weatherAsk(){            
+            var url = api_cearch +input.value()+apiKey_serch+units
+            loadJSON(url, gotData);
+        }
 
         $('weather_info .load_img').show();
 

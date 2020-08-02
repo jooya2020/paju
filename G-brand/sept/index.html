@@ -16,12 +16,13 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/font-awesome.min.css" rel="stylesheet">
 
-
+		<link rel="stylesheet" href="css/wickedcss.min.css">
 		<link href="css/owl.carousel.css" rel="stylesheet">
 		<link href="css/owl.theme.css" rel="stylesheet">
 		<link href="css/owl.transitions.css" rel="stylesheet">
 		<link href="css/swiper.css" rel="stylesheet">
 
+		
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/master.css" rel="stylesheet">
 
@@ -90,34 +91,40 @@
 		<!--01 home end -->
 
 		<!--02 Product start -->
-		<section class="Product" id="Product" class="container-fluid">
-			<div id=banner_cont>
-				<div class="row">
-					<div class="col-sm-6 banner ban_color_1">
-						<div class="img_card">
-							<a href="#">
-								<img src="images/coffee_capsul.jpg" alt="캡술">
-								<div class="txt_box">
-									<h4>Coffe capsul</h4>
-									<p id="col_b">이번달 추천 로스팅 플레이버!</p>
-								</div>	
-							</a>						
+		
+			<section class="Product" id="Product" class="container-fluid">
+				
+				<div id=banner_cont>
+					<div class="row">
+						<div class="barrelRoll">
+							<div class="col-sm-6 banner ban_color_1">
+								<div class="img_card">
+									<a href="#">
+										<img src="images/coffee_capsul.jpg" alt="캡술">
+										<div class="txt_box">
+											<h4>Coffe capsul</h4>
+											<p id="col_b">이번달 추천 로스팅 플레이버!</p>
+										</div>	
+									</a>						
+								</div>
+							
+							</div>
 						</div>
-					</div>
-						
-					<div class="col-sm-6 banner ban_cont_2">
-						<div class="txt_card">
-							<div class="t_box_1">
-								<h3>Bginner Box</h3>
-								<p>루왁커피로 입문하고 싶은<br>
-									커피입문자들을 위한 세트 패키지</p>
-								<button class="butt" >more detail</button>
+						<div class="col-sm-6 banner ban_cont_2">
+							<div class="txt_card">
+								<div class="t_box_1">
+									<h3>Bginner Box</h3>
+									<p>루왁커피로 입문하고 싶은<br>
+										커피입문자들을 위한 세트 패키지</p>
+									<button class="butt" >more detail</button>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+			</section>
+		
 		<!--02 Product end -->
 
 		<!--03 service start -->
@@ -126,6 +133,7 @@
 				
 				<div class="row border_wrap">
 					<div class="border"></div>
+
 					<div class="col-sm-6 banner_slim">
 						<div class="b_cont b_txt">
 							<div class="t_box_1">
@@ -348,10 +356,22 @@
 			</div>
 		</footer>
 		<!-- footer end -->
-
+		<script>
+			$(window).scroll(function() {
+			  $('#animatedElement').each(function(){
+			   var imagePos = $(this).offset().top;
+			   var topOfWindow = $(window).scrollTop();
+			   if (imagePos < topOfWindow+1000) {
+			   $(this).addClass("barrelRoll");
+			   }
+			  });
+			});
+			</script>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="js/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+		
 		<script src="js/swiper.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/jquery.easing.min.js"></script>

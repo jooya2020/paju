@@ -282,7 +282,9 @@ align-self: center;
         cursor: pointer;
         padding-bottom: 5%!important;
     }
-
+    .Product_list>div>div>h4{
+        margin-bottom: 30px;
+    }
 }
 
 
@@ -290,9 +292,7 @@ align-self: center;
     .flex_wrap{width:100%;
     margin:0 auto}
     .box{width:50%;}
-    .Product_list>div>div>h4{
-        margin-bottom: 50px;
-    }
+    
 }
 @media(max-width:769px){
     .p_list_bg{

@@ -1197,6 +1197,7 @@ ul.styled-list.list-star li:before {
   border-radius: 50%;
 }
 .testimonial blockquote {
+  padding-top: 25px;
   border-width: 0;
 }
 .testimonial blockquote p {

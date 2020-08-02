@@ -15,10 +15,10 @@ body{
     color:#fff;
     font-size: 100%;
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(-45deg, #ee7752,#e73c72,#23a6d5,#23d5ab,#23a6d5,#e73c72,#ee7752);
-    background-size: 400% 400%;
-    animation: wheather 10s infinite;
-    text-shadow: 1px 1px 1px #999;
+    background: linear-gradient(-45deg,#23d5ab,#23a6d5,#9438df,#e95b88,#9438df,#23a6d5,#23d5ab);
+    background-size: 3000% 500%;
+    animation: wheather 40s infinite;
+    /* text-shadow: 1px 1px 1px #999; */
 }
 /* bg animate */
 @keyframes wheather{
@@ -111,3 +111,23 @@ body{
     font-size: 0.8rem;
 }
 
+@media(max-width:767px){
+    .padding_t100{
+        padding-top: 10%;
+    }
+
+}
+@media(max-width:600px){
+      .padding_t100{
+        padding-top: 5%;
+    }
+}
+@media(max-width:375px){
+    .padding_t100{
+        padding-top: 5%;
+    }
+    .icon{
+        font-size: 6em; 
+    }
+    
+}

@@ -1207,7 +1207,7 @@ ul.styled-list.list-star li:before {
   left: 7%;
   z-index: 99;
 }
-@media(max-width:376px){
+@media(max-width:501px){
   .testimonial .testimonial-img:before{
     left:26%
   }

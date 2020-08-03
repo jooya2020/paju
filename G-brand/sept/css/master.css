@@ -30,7 +30,7 @@
     justify-content: center;
     position: relative;
 }
-@media(max-width:376px){   
+@media(max-width:501px){   
     .txt_box{
         width: 250px!important;
     }
@@ -61,6 +61,7 @@
         text-align: center;
     }
 }
+@media(max-width:501px){#width_80{ width:80%; margin:0 auto;}}
 @media (min-width:768px){#banner_cont{width:100%;padding:0;margin:0}}
 @media (min-width:992px){#banner_cont{width:970px;margin:0 auto;}}
 @media (min-width:1200px){#banner_cont{width:1170px;
@@ -141,6 +142,7 @@
     /* background: #ccc; */
     display:flex;
 }
+
 @media(max-width:767px){
     .flex_r{
        

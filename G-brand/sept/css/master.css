@@ -30,10 +30,7 @@
     justify-content: center;
     position: relative;
 }
-@media(max-width:376px){
-    .ban_cont_2{
-        
-    }
+@media(max-width:376px){   
     .txt_box{
         width: 250px!important;
     }
@@ -43,8 +40,26 @@
     .banner_slim .t_box_1 p{
         display:none
     }
-   
-
+   .aos-init >h1{
+       font-size:3rem
+   }
+   .aos-init >h4{
+    font-size:1.5rem;
+    width:80%;
+    margin:0 auto;
+    }
+    .testimonial {
+        display:flex;
+        flex-direction: column;
+    }
+    .testimonial-img {
+       width:100%;
+       padding-left: 25%;;
+       
+    }
+    blockquote {
+        text-align: center;
+    }
 }
 @media (min-width:768px){#banner_cont{width:100%;padding:0;margin:0}}
 @media (min-width:992px){#banner_cont{width:970px;margin:0 auto;}}

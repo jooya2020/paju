@@ -1207,6 +1207,14 @@ ul.styled-list.list-star li:before {
   left: 7%;
   z-index: 99;
 }
+@media(max-width:376px){
+  .testimonial .testimonial-img:before{
+    left:26%
+  }
+  .testimonial .testimonial-img:after {
+    left:25%
+  }
+}
 .testimonial .testimonial-img img {
   border-radius: 50%;
 }

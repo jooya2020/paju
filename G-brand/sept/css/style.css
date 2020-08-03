@@ -12,7 +12,7 @@ body {
   font-family: 'Yantramanav', sans-serif;
   color: #8f8f8f;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 26px;
   word-spacing: 2px;
   -webkit-font-smoothing: antialiased;
@@ -575,7 +575,21 @@ h6 {
 }
 @media (max-width:767px){
   #sept-main-nav {
+    
     background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@media (max-width:794px){
+  #st-navbar {
+    width: 100%;
+   
+  }
+}
+@media (max-width:375px){
+  #st-navbar {
+    width: 100vw;
+    
+   
   }
 }
 

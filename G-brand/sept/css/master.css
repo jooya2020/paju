@@ -1,4 +1,8 @@
 /* home */
+#home, #product,#service,#about_info,#Product_list,#testimonials{
+    width:100vw;
+    overflow: hidden;
+}
 .b_bg{
     background-color:rgba(0, 0, 0, 0.5);
     width:100%;
@@ -8,7 +12,7 @@
   
   }
 /* Product */
-#Product{
+#Product{   
     background: #fff;
 }
 .banner{
@@ -18,6 +22,7 @@
 
 .ban_color_1{
     background:#c3b8b525;
+    overflow: hidden;
 }
 
 .banner_cont{
@@ -25,13 +30,29 @@
     justify-content: center;
     position: relative;
 }
+@media(max-width:376px){
+    .ban_cont_2{
+        
+    }
+    .txt_box{
+        width: 250px!important;
+    }
+    #col_b{
+    width:100%;
+    }
+    .banner_slim .t_box_1 p{
+        display:none
+    }
+   
 
+}
 @media (min-width:768px){#banner_cont{width:100%;padding:0;margin:0}}
 @media (min-width:992px){#banner_cont{width:970px;margin:0 auto;}}
 @media (min-width:1200px){#banner_cont{width:1170px;
     margin:0 auto;}}
 
 .ban_cont_2{
+    overflow: hidden;
     background: url("../images/coffee_set.jpg");
     background-position:center center;
     background-repeat:no-repeat;
@@ -39,6 +60,7 @@
     position: relative;
 }
 .img_card{
+    
     position: relative;
     width:80%;    
     height: 380px;

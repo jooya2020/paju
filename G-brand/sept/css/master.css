@@ -323,6 +323,24 @@ align-self: center;
     top:0;
     position: absolute;  
   }
+  /* clients-carousel */
+
+  #owl-demo {
+    width: 100%;
+}
+
+#owl-demo .item {
+    width: 100%;
+    height: 400px;
+    background-color: #999;
+}
+
+#owl-demo .item h1{
+    line-height: 400px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
   /* testimonials */
 
   /* site-footer */

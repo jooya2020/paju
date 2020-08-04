@@ -11,12 +11,25 @@
     position: absolute;
   
   }
+  .hero-title br{display:none}
+  @media(max-width:767px){
+    .hero-title{font-size:56px!important}
+    .hero-title br{display:block}
+  }
+  @media(max-width:376px){
+    .hero-title{font-size:32px!important;}
+    .hero-title br{display:block}
+  }
+
 /* Product */
 #Product{   
     background: #fff;
 }
+.overflow-x{
+    overflow-x:hidden;
+}
 .banner{
-    height: 500px;
+    height: 500px!important;
     padding:0;
 }
 
@@ -67,7 +80,7 @@
 @media (min-width:1200px){#banner_cont{width:1170px;
     margin:0 auto;}}
 
-.ban_cont_2{
+.ban_cont_2{    
     overflow: hidden;
     background: url("../images/coffee_set.jpg");
     background-position:center center;
@@ -363,23 +376,47 @@ align-self: center;
     position: absolute;  
   }
   /* clients-carousel */
-
-  #owl-demo {
-    width: 100%;
+  @media (max-width:376px){
+.clients-carousel .img-responsive{
+    padding-left:50px;
+}
 }
 
-#owl-demo .item {
-    width: 100%;
-    height: 400px;
-    background-color: #999;
-}
-
-#owl-demo .item h1{
-    line-height: 400px;
-    text-align: center;
-    font-size: 40px;
-    color: white;
-}
-  /* testimonials */
 
   /* site-footer */
+  .site-footer img{
+      width: 80px;
+      padding-bottom: 20px;
+  }
+.site-footer h4{
+    font-size:1.5rem;
+    margin: 0;
+    line-height:24px;
+}
+#br_none{
+    display:none;
+}
+@media (max-width:767px){
+    .site-footer img{
+        width:15%
+    }
+    .site-footer h4{
+        font-size:1.2rem;
+        line-height:16px;
+    }
+}
+@media (max-width:376px){
+    .site-footer img{
+        width:20%
+    }
+    .site-footer h4{
+        font-size:1rem;
+        line-height:16px;
+    }
+    .m-wrab{
+        display:none;
+    }
+    #br_none{
+        display:block;
+    }
+}

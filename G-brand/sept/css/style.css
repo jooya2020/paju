@@ -9,6 +9,7 @@
  * This theme under "Attribution-NonCommercial CC BY-NC". You can't remove footer credit link.
  */
 body {
+  overflow: hidden;
   font-family: 'Yantramanav', sans-serif;
   color: #8f8f8f;
   font-weight: 400;
@@ -1156,7 +1157,7 @@ ul.styled-list.list-star li:before {
           transform: translate3d(0, 0, 0);
 }
 .clients {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .clients-carousel {
   margin: 0;
@@ -1173,7 +1174,7 @@ ul.styled-list.list-star li:before {
   opacity: 1;
 }
 .testimonials {
-  padding: 100px 0;
+  padding: 50px 0;
   background: url("../images/costomer.jpg");
   background-size: cover;
   background-position: center;
@@ -1636,7 +1637,7 @@ textarea.formFieldError {
 }
 footer.site-footer {
   background-color: rgb(24, 16, 16);
-  padding: 100px 0;
+  padding: 30px 0;
   color: #fcfcfc;
   font-size: 13px;
   text-align: center;

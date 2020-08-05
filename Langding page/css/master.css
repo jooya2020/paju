@@ -166,5 +166,15 @@ body{
   }
 
   .slide{
-      height: 100vh;
+    padding-top:30%
+  }
+  .summer_update{
+      background: #000;
+      display:flex;
+      justify-content: center;
+      position:relative;
+  }
+  .summer_update img{
+      width:50%;
+      margin:0 auto;
   }

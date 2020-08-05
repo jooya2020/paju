@@ -10,7 +10,7 @@
  */
 body {
   overflow: hidden;
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Noto Sans KR','Noto Serif', sans-serif;
   color: #8f8f8f;
   font-weight: 400;
   font-size: 16px;
@@ -36,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Oswald";
+  font-family: "Noto Serif";
   color: #4c4c4c;
   letter-spacing: 1px;
   font-weight: 700;
@@ -477,10 +477,10 @@ h6 {
   text-align: center;
 }
 .home .hero-txt .hero-title {
-  font-family: "Oswald";
+  font-family: 'Fredericka the Great';
   color: #fff;
   text-transform: uppercase;
-  font-size: 70px;
+  font-size: 60px;
   line-height: 85px;
   font-weight: 400;
   letter-spacing: 8px;
@@ -489,13 +489,14 @@ h6 {
   margin-top: 5px;
   padding: 20px 10px;
 }
-.home .hero-txt .hero-work {
-  font-family: "Oswald";
-  font-weight: bolder;
+.home .hero-txt #hero-work {
+  font-family: 'Noto Serif'!important;
+  font-weight: 600;
+  font-size: 2.5rem;
   letter-spacing: 2px;
   margin-bottom: 0;
 }
-.home .hero-txt .hero-work:after {
+.home .hero-txt #hero-work:after {
   content: "";
   display: block;
   width: 200px;

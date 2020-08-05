@@ -1,3 +1,9 @@
+@font-face{
+    font-family:Lobster;
+    src:url('../fonts/Lobster.eot');
+    src:local(※), 
+        url('../fonts/Lobster.woff') format('woff');
+    }
 /* home */
 #home, #product,#service,#about_info,#Product_list,#testimonials{
     width:100vw;

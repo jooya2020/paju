@@ -1,0 +1,117 @@
+@font-face{
+    font-family:TmoneyRoundWind;
+    src:url('../font/onlinefontconverter.com/TmoneyRoundWind-ExtraBoldA1.eot');
+    src:local(※), 
+        url('../font/onlinefontconverter.com/TmoneyRoundWind-ExtraBoldA1.woff') format('woff');
+}
+body{
+    font-family: 'Noto Sans KR';
+    font-size: 16px;
+
+    background: url('../img/bg_pattern.png');
+    background-color: #1bc8c8;
+}
+/* main */
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/main_bg.png);
+    background-size:cover ;
+    background-position: 0 -21px;
+    background-repeat:no-repeat ;
+    padding: 0;
+}
+@media(max-width:375px){
+    .main{
+        background: url(../img/main_bg_375.png);
+       
+        background-repeat:no-repeat ;
+    }
+}
+.main_wrab{
+    height: 187px;
+    
+}
+.wrab_1{  
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;          
+    /* background: #000; */
+}
+.wrab_1 img{}
+@media(max-width:375px){}
+@media(max-width:767px){
+    .wrab_1{  
+        height: 18%;
+    }
+    .wrab_1 img{
+        width: 80px;
+    }
+}
+/* wrab_1 end */
+
+.wrab_2{   
+    height: 561px;  
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: flex-start;   
+    /* background: #999999; */
+    
+}
+.main_img_1{
+    margin-left: 2%;
+    
+}
+.main_img_2{
+    width: 450px;
+    margin-left: 2.4%;
+   
+}
+
+@media(max-width:375px){}
+@media(max-width:767px){
+    .wrab_2{ 
+        height: 55%;
+       justify-content: flex-start;
+       align-items: center;   
+    }
+    .wrab_2 img{
+       width: 75%;
+    }
+    .main_img_1{     
+        margin-right: 2%;
+    }
+    .main_img_2{     
+        margin-right: 2.4%;
+    }
+}
+.wrab_3{   
+    position: relative;  
+    /* background: #888; */
+}
+.talk{
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.talk_wrab{
+    position: relative;
+}
+.like_talk_heart{
+    position: absolute;
+    top:25%;
+    left: 10%;   
+}
+.talk_wrab p{
+    position: absolute;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bolder;
+    top:16%;
+    right: 10%;
+}
+/* .wrab_4{      
+    background: #777;
+} */

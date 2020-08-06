@@ -37,8 +37,9 @@
     .hero-title br{display:block}
   }
   @media(max-width:376px){
-    .hero-title{font-size:32px!important;}
+    .hero-title{font-size:50px!important;line-height: 70px!important;}
     .hero-title br{display:block}
+    
   }
 
 /* Product */
@@ -100,6 +101,7 @@
         text-align: center;
     }
 }
+@media(max-width:375px){#width_80{font-size:1.4rem}}
 @media(max-width:501px){#width_80{ width:80%; margin:0 auto;}}
 @media (min-width:768px){#banner_cont{width:100%;padding:0;margin:0}}
 @media (min-width:992px){#banner_cont{width:970px;margin:0 auto;}}
@@ -411,7 +413,9 @@ align-self: center;
   /* clients-carousel */
   @media (max-width:376px){
 .clients-carousel .img-responsive{
-    padding-left:50px;
+    
+    padding-left:67.5px;
+    padding-right:67.5x;
 }
 }
 

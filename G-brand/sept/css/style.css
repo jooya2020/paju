@@ -491,12 +491,18 @@ h6 {
   margin-top: 5px;
   padding: 20px 10px;
 }
+
 .home .hero-txt #hero-work {
   font-family: 'Noto Serif'!important;
   font-weight: 600;
   font-size: 2.5rem;
   letter-spacing: 2px;
   margin-bottom: 0;
+}
+@media (max-width:375px){
+  .home .hero-txt #hero-work {
+    font-size: 2rem;
+  }
 }
 .home .hero-txt #hero-work:after {
   content: "";

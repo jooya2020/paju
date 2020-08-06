@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1 v-if=visible>나보임</h1>
+        <!-- v-if 조건 스크립트 변수만들어야 뷰 안만들어도 -->
+        <button @click="visible = !visible">버튼</button>
+        <hr />
+        <button @click="clickButton">버튼</button>
+        <!-- alert 안뜨는 이유는 뭐가요... 스크립트 잘못 가져왔나.... -->
+        <button @dblclick="dblClick">버튼</button>
+        <button @click="add()">버튼</button>
+        <ul>
+            <li v-for="n in numbers">{{n}}</li>
+        </ul>
+        <input type="text" v-model="animal" @keyup.enter="capture()">
+        <button @click="capture">버튼</button>
+        <button @click="del">버튼</button>
+        <ul>
+            <li v-for="n in animals">{{n}}</li>
+        </ul>        
+    </div>
+    <!-- 개발버전, 도움되는 콘솔 경고를 포함. -->
+    <!--공부해야할 내용 @키업속성 많음 , 브이모델 [디스.넘버.렝스-1] 부분-->
+    <script>
+        //v-on
+        // var app = 
+        new Vue({
+            el: '#app',
+            data: {
+                visible: true,
+                numbers:[1,2,3,4,5],
+                animal:null,
+                animals:['lion','tiger','dog','cat','eagle']
+            },
+            methods: {
+                clickButton: function(){
+                    alert('버튼을 눌렀습니다')
+                },
+                dblClick: function(){
+                    alert('버튼을 두번 눌렀습니다')
+                },
+
+                add: function(){
+                    var lastNumber = this.numbers[this.numbers.length-1];
+                    lastNumber+=1;
+                    this.numbers.push(lastNumber);
+                    // (lastNumber) 가로안 안넣어도 됨
+                },
+                capture: function(){
+                    if(this.animal){
+                        this.animals.push(this.animal);
+                        this.animal = null;
+                        // 위치는 있지만 값이 없는 null
+                    }
+                },
+                del: function(){
+                    if(this.animals){
+                        this.animals.pop(this.animal);
+                    }
+                }
+            }
+        })
+    </script>
+</body>
+</html>

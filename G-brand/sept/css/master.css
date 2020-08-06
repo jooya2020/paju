@@ -4,7 +4,14 @@
     src:url('../fonts/Lobster.eot');
     src:local(※), 
         url('../fonts/Lobster.woff') format('woff');
-    }
+}
+@media (max-width:1000px){
+    .container{
+        width:100%;
+        padding:0!important;}
+        #about_info,#Product{padding:0!important;} 
+}
+
 /* home */
 #home, #product,#service,#about_info,#Product_list,#testimonials{
     width:100vw;

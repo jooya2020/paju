@@ -9,7 +9,7 @@
     .container{
         width:100%;
         padding:0!important;}
-        #about_info,#Product{padding:0!important;} 
+        #about_info,#Product{padding:0!important;}       
 }
 
 /* home */
@@ -199,7 +199,7 @@ align-self: center;
 /* service end */
 
 /* about_info start */
-.about_info{
+#about_info{
     background: #fff;
     padding:30px 0;
 }
@@ -223,6 +223,9 @@ align-self: center;
 }
 .info_bgc_2{
     background: rgba(116, 32, 24, 0.7);
+}
+#about_info {
+
 }
 #about_info h3, #about_info p{
     color: #fff;

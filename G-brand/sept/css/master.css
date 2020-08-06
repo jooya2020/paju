@@ -11,6 +11,11 @@
         padding:0!important;}
         #about_info,#Product{padding:0!important;}       
 }
+@media (max-width:767px){
+    .navbar-brand img{
+        padding-left: 10px;
+    }
+}
 
 /* home */
 #home, #product,#service,#about_info,#Product_list,#testimonials{
@@ -224,9 +229,7 @@ align-self: center;
 .info_bgc_2{
     background: rgba(116, 32, 24, 0.7);
 }
-#about_info {
 
-}
 #about_info h3, #about_info p{
     color: #fff;
 }

@@ -329,3 +329,99 @@ text-align: center;
     font-size: 2rem;
     line-height: 3rem;
 }
+
+/* envert */
+.event{
+    position: relative;
+    padding-top: 50px;
+}
+.event_title{
+    height: 450px;
+    position: relative;
+}
+.event_title1,.even_yaja_pink,.event_txt{   
+    position: absolute;
+    
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.event_title1{
+    width: 62%;
+    padding-top: 60px;
+    padding-left: 6px;
+    bottom: 0;
+}
+.even_yaja_pink{
+    width: 90%;
+    bottom: 0;
+    padding-bottom: 85px;
+   
+}
+.event_txt{
+    width: 40%;
+    bottom:35%;
+    padding-left: 100px;
+}
+.event_bg{
+    position: absolute;
+    top:414px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 93%;
+    height: 1200px;
+    background: #d0fbfb;
+    border-radius: 50px;
+}
+.event_bg_wrap{
+    position: relative;
+}
+.event_bg_wrap{
+    position: absolute;
+    top:200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.spelling_wrab{
+    position: absolute;
+    padding-top: 50px;;    
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.spelling_wrab img{
+    padding: 20px;
+    margin-top: 10px;
+}
+.spelling_wrab h1{
+    position: absolute;    
+}
+.spelling_s,.spelling_o{
+    padding: 85px;
+}
+.spelling_o{
+    left: 50%;
+}
+.event_bg_wrap h2{   
+    line-height: 5.5rem;
+   
+}
+.event_bg_wrap h3{
+    width: 110%;
+    text-align: center;
+    line-height: 4rem;
+    font-family: inherit;
+    font-weight: 500;
+    position: absolute;
+    top:600px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.event_bg_wrap .yellow{
+    color: yellow;
+    text-shadow:3px 3px 3px black;
+    font-weight: bolder;
+}
+.boder{
+    font-weight: bolder;
+}

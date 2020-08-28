@@ -11,7 +11,7 @@
  
 
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: 'Noto Sans KR','Noto Serif', sans-serif;
   color: #8f8f8f;
   font-weight: 400;
@@ -465,6 +465,14 @@ h6 {
   position: relative
   /* Temp CSS */
   /* Temp CSS End */
+}
+@media(max-width:375px){
+  .home {
+    background-image: url(../images/Home_bg_m.png)!important ;
+    background-size: cover;
+    background-position:center;
+    background-attachment: local!important;
+  }
 }
 
 .home .st-brand {
@@ -1190,6 +1198,11 @@ ul.styled-list.list-star li:before {
   background-attachment: fixed;
   background-color: #000;
   color: #fff; 
+}
+@media (min-width:375px){
+  .testimonials {
+    background-attachment: local;
+  }
 }
 .testimonial .testimonial-img {
   float: left;
